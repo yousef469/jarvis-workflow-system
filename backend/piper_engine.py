@@ -38,7 +38,7 @@ class JarvisVoicePiper:
         self.config_path = f"{model_path}.json"
         
         # Point to the piper executable in the virtualenv
-        self.piper_exe = os.path.join(os.path.dirname(os.path.dirname(__file__)), "atlas_env_mac", "bin", "piper")
+        self.piper_exe = os.path.join(os.path.dirname(os.path.dirname(__file__)), "jarvis_env_mac", "bin", "piper")
         
         self._lock = threading.Lock()
         self._is_speaking = False

@@ -1,12 +1,12 @@
 {
-  "name": "atlas",
+  "name": "jarvis",
   "private": true,
   "version": "1.0.0",
-  "description": "Atlas - Offline AI Assistant for Engineers, Researchers & Creators",
+  "description": "Jarvis - Offline AI Assistant for Engineers, Researchers & Creators",
   "main": "dist-electron/main/index.js",
   "scripts": {
     "dev": "vite",
-    "backend": "./atlas_env_mac/bin/python3 backend/server.py",
+    "backend": "./jarvis_env_mac/bin/python3 backend/server.py",
     "jarvis": "npm run backend",
     "start-all": "concurrently -n \"ELECTRON,BACKEND\" -c \"blue,green\" \"npm run dev\" \"npm run backend\"",
     "start-lean": "concurrently -n \"ELECTRON,BACKEND\" -c \"blue,green\" \"npm run dev\" \"npm run backend\"",

@@ -7,7 +7,7 @@ from typing import Dict, Any
 class MemoryWorker:
     """Handles memory retrieval using ChromaDB directly (no LlamaIndex)"""
     
-    def __init__(self, db_path="./atlas_memory_v2"):
+    def __init__(self, db_path="./jarvis_memory_v2"):
         self.name = "memory"
         self.db_path = os.path.abspath(db_path)
         self._initialized = False

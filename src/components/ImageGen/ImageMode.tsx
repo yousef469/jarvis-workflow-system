@@ -40,8 +40,8 @@ export default function ImageMode() {
             const data = await res.json()
 
             if (data.success && data.path) {
-                // Convert to atlas-app protocol for local file access
-                const imageUrl = `atlas-app://${data.path}`
+                // Convert to jarvis-app protocol for local file access
+                const imageUrl = `jarvis-app://${data.path}`
                 console.log(`[ImageMode] Success! Resolved image path: ${imageUrl}`)
 
                 setCurrentImage(imageUrl)

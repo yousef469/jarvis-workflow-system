@@ -9,7 +9,7 @@ CHANNELS = 2
 RATE = 16000
 CHUNK = 1280
 RECORD_SECONDS = 3
-MODEL_PATH = "/Users/yousef/Desktop/atlas/atlas/backend/models/openwakeword/hey_jarvis.onnx"
+MODEL_PATH = "/Users/yousef/Desktop/jarvis/jarvis/backend/models/openwakeword/hey_jarvis.onnx"
 
 audio = pyaudio.PyAudio()
 stream = audio.open(format=FORMAT, channels=CHANNELS, rate=RATE, input=True, frames_per_buffer=CHUNK)

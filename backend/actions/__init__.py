@@ -1,4 +1,4 @@
-"""Action Registry - All available Atlas actions"""
+"""Action Registry - All available Jarvis actions"""
 from typing import Dict, Callable, Any
 from .apps import open_app, close_app, focus_app
 from .browser import open_url, search_google, search_youtube

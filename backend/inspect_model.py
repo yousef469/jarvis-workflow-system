@@ -3,7 +3,7 @@ import os
 import sys
 
 # Assume model path
-model_path = "/Users/yousef/Desktop/atlas/atlas/backend/models/openwakeword/hey_jarvis.onnx"
+model_path = "/Users/yousef/Desktop/jarvis/jarvis/backend/models/openwakeword/hey_jarvis.onnx"
 
 if not os.path.exists(model_path):
     print("Model not found!")

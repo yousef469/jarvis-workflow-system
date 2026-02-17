@@ -9,7 +9,7 @@ import * as pty from 'node-pty'
 
 // Register scheme as privileged
 protocol.registerSchemesAsPrivileged([
-    { scheme: 'atlas-app', privileges: { standard: true, secure: true, supportFetchAPI: true, bypassCSP: true, stream: true } }
+    { scheme: 'jarvis-app', privileges: { standard: true, secure: true, supportFetchAPI: true, bypassCSP: true, stream: true } }
 ])
 
 let mainWindow: BrowserWindow | null = null
@@ -26,7 +26,7 @@ app.commandLine.appendSwitch('disable-gpu-compositing');  // Reduce GPU overhead
 app.commandLine.appendSwitch('disable-gpu-vsync');         // Don't wait for vsync
 
 // ============================================================================
-// ATLAS PYTHON BACKEND LAUNCHER
+// JARVIS PYTHON BACKEND LAUNCHER
 // ============================================================================
 function startPythonBackend(): void {
     const backendDir = is.dev
@@ -36,15 +36,15 @@ function startPythonBackend(): void {
     const serverScript = path.join(backendDir, 'server.py')
 
     if (!fs.existsSync(serverScript)) {
-        console.warn(`[Atlas] Python backend not found at: ${serverScript}`)
-        console.warn(`[Atlas] Running in frontend-only mode. Start backend manually.`)
+        console.warn(`[Jarvis] Python backend not found at: ${serverScript}`)
+        console.warn(`[Jarvis] Running in frontend-only mode. Start backend manually.`)
         return
     }
 
-    // Try common Python paths (Integrated Atlas Environment)
+    // Try common Python paths (Integrated Jarvis Environment)
     const pythonPaths = [
-        path.join(process.cwd(), 'atlas_env_mac', 'bin', 'python3'),
-        path.join(process.cwd(), 'atlas_env', 'bin', 'python3'),
+        path.join(process.cwd(), 'jarvis_env_mac', 'bin', 'python3'),
+        path.join(process.cwd(), 'jarvis_env', 'bin', 'python3'),
         'python3',
         'python'
     ]
@@ -57,13 +57,13 @@ function startPythonBackend(): void {
         }
     }
 
-    console.log(`[Atlas] Checking if backend is already running on http://localhost:8765...`)
+    console.log(`[Jarvis] Checking if backend is already running on http://localhost:8765...`)
 
     // Quick check: if we started with 'start-all' or manually, don't spawn
     // We can use a simple fetch or net check
     import('net').then(net => {
         const socket = net.connect(8765, '127.0.0.1', () => {
-            console.log(`[Atlas] External backend detected. Skipping internal launch.`)
+            console.log(`[Jarvis] External backend detected. Skipping internal launch.`)
             socket.destroy()
         })
         socket.on('error', () => {
@@ -74,7 +74,7 @@ function startPythonBackend(): void {
 }
 
 function spawnBackend(pythonPath: string, serverScript: string, backendDir: string): void {
-    console.log(`[Atlas] Starting Python backend: "${pythonPath}" "${serverScript}"`)
+    console.log(`[Jarvis] Starting Python backend: "${pythonPath}" "${serverScript}"`)
 
     pythonBackend = spawn(pythonPath, [serverScript], {
         cwd: backendDir,
@@ -98,7 +98,7 @@ function spawnBackend(pythonPath: string, serverScript: string, backendDir: stri
     })
 
     pythonBackend.on('exit', (code) => {
-        console.log(`[Atlas] Python backend exited with code ${code}`)
+        console.log(`[Jarvis] Python backend exited with code ${code}`)
         pythonBackend = null
     })
 }
@@ -159,7 +159,7 @@ function createWindow(): void {
     })
 
     if (is.dev) {
-        console.log(`[Atlas] Loading dev server: ${devUrl}`)
+        console.log(`[Jarvis] Loading dev server: ${devUrl}`)
         mainWindow.loadURL(devUrl)
     } else {
         const prodPath = join(__dirname, '../../dist/index.html')
@@ -170,7 +170,7 @@ function createWindow(): void {
     // CRASH HANDLERS
     // ============================================================================
     mainWindow.webContents.on('render-process-gone', (event, details) => {
-        console.error(`[Atlas] Render process gone: ${details.reason} (${details.exitCode})`)
+        console.error(`[Jarvis] Render process gone: ${details.reason} (${details.exitCode})`)
         if (details.reason === 'crashed') {
             app.relaunch()
             app.exit(0)
@@ -178,7 +178,7 @@ function createWindow(): void {
     })
 
     app.on('child-process-gone', (event, details) => {
-        console.error(`[Atlas] Child process gone: ${details.type} - ${details.reason}`)
+        console.error(`[Jarvis] Child process gone: ${details.type} - ${details.reason}`)
     })
 }
 
@@ -357,7 +357,7 @@ ipcMain.handle('terminal:create', async (_, id: string, cwd: string) => {
 
         return id
     } catch (error: any) {
-        console.error('[Atlas] Failed to create terminal:', error)
+        console.error('[Jarvis] Failed to create terminal:', error)
         throw error
     }
 })
@@ -417,7 +417,7 @@ ipcMain.handle('ai:chat', async (_, messages: unknown[]) => {
         const data = await response.json() as any
         return data.message.content
     } catch (error: any) {
-        console.error('[Atlas] AI Chat Error:', error)
+        console.error('[Jarvis] AI Chat Error:', error)
         if (error.name === 'AbortError') {
             return "Error: AI reasoning timed out. The workspace context might be too large for the current model."
         }
@@ -493,7 +493,7 @@ ipcMain.handle('ai:chat-stream', async (event, messages: unknown[]) => {
 
 ipcMain.handle('ai:coder-stream', async (event, payload: { text: string, project_path: string, active_file?: string }) => {
     try {
-        console.log('[Atlas] Proxying Coder Request to Python Backend...')
+        console.log('[Jarvis] Proxying Coder Request to Python Backend...')
         const response = await fetch('http://localhost:8765/api/coder/stream', {
             method: 'POST',
             body: JSON.stringify(payload),
@@ -535,7 +535,7 @@ ipcMain.handle('ai:coder-stream', async (event, payload: { text: string, project
         event.sender.send('ai:coder-chunk', '[DONE]')
 
     } catch (error: any) {
-        console.error('[Atlas] Coder Bridge Error:', error)
+        console.error('[Jarvis] Coder Bridge Error:', error)
         event.sender.send('ai:coder-chunk', `Error: ${error.message}. Is the Python backend running?`)
     }
 })
@@ -596,7 +596,7 @@ ipcMain.handle('ai:analyzeCode', async (_, filePath: string) => {
     }
 })
 
-ipcMain.handle('atlas:getSources', async () => {
+ipcMain.handle('jarvis:getSources', async () => {
     try {
         const { desktopCapturer } = require('electron')
         const sources = await desktopCapturer.getSources({ types: ['window', 'screen'], thumbnailSize: { width: 150, height: 150 } })
@@ -606,21 +606,21 @@ ipcMain.handle('atlas:getSources', async () => {
             thumbnail: s.thumbnail.toDataURL()
         }))
     } catch (error) {
-        console.error('[Atlas] Failed to get sources:', error)
+        console.error('[Jarvis] Failed to get sources:', error)
         return []
     }
 })
 
 // ============================================================================
-// ATLAS-SPECIFIC IPC HANDLERS
+// JARVIS-SPECIFIC IPC HANDLERS
 // ============================================================================
-ipcMain.handle('atlas:captureFrame', async () => {
+ipcMain.handle('jarvis:captureFrame', async () => {
     try {
         const { desktopCapturer, screen } = require('electron')
         const primaryDisplay = screen.getPrimaryDisplay()
         const { width, height } = primaryDisplay.size
 
-        console.log(`[Atlas] Capturing primary display: ${width}x${height}`)
+        console.log(`[Jarvis] Capturing primary display: ${width}x${height}`)
 
         const sources = await desktopCapturer.getSources({
             types: ['screen'],
@@ -629,7 +629,7 @@ ipcMain.handle('atlas:captureFrame', async () => {
 
         let finalSources = sources
         if (finalSources.length === 0) {
-            console.log('[Atlas] No screens found, trying window capture...')
+            console.log('[Jarvis] No screens found, trying window capture...')
             finalSources = await desktopCapturer.getSources({
                 types: ['window'],
                 thumbnailSize: { width: 800, height: 600 }
@@ -638,19 +638,19 @@ ipcMain.handle('atlas:captureFrame', async () => {
 
         if (finalSources.length > 0) {
             const dataUrl = finalSources[0].thumbnail.toDataURL()
-            console.log(`[Atlas] Source found: ${finalSources[0].name}. Thumbnail size: ${dataUrl.length} chars`)
+            console.log(`[Jarvis] Source found: ${finalSources[0].name}. Thumbnail size: ${dataUrl.length} chars`)
             return dataUrl
         }
 
-        console.warn('[Atlas] No capture sources found in captureFrame.')
+        console.warn('[Jarvis] No capture sources found in captureFrame.')
         return null
     } catch (error) {
-        console.error('[Atlas] Direct capture failed:', error)
+        console.error('[Jarvis] Direct capture failed:', error)
         return null
     }
 })
 
-ipcMain.handle('atlas:getBackendStatus', async () => {
+ipcMain.handle('jarvis:getBackendStatus', async () => {
     try {
         const response = await fetch('http://localhost:8765/api/health', { signal: AbortSignal.timeout(2000) })
         return response.ok ? 'connected' : 'error'
@@ -659,7 +659,7 @@ ipcMain.handle('atlas:getBackendStatus', async () => {
     }
 })
 
-ipcMain.handle('atlas:getSystemInfo', async () => {
+ipcMain.handle('jarvis:getSystemInfo', async () => {
     return {
         platform: process.platform,
         arch: process.arch,
@@ -676,12 +676,12 @@ ipcMain.handle('atlas:getSystemInfo', async () => {
 app.whenReady().then(() => {
     // ============================================================================
     // CUSTOM PROTOCOL HANDLER (Safe File Access)
-    // ================================= scheme: atlas-app://path/to/file
-    protocol.handle('atlas-app', async (request) => {
-        // atlas-app:///Users/yousef/... => extract the path after atlas-app://
+    // ================================= scheme: jarvis-app://path/to/file
+    protocol.handle('jarvis-app', async (request) => {
+        // jarvis-app:///Users/yousef/... => extract the path after jarvis-app://
         // IMPORTANT: Do NOT use new URL() — it lowercases the hostname portion,
         // turning /Users/ into /users/ which breaks case-sensitive Mac paths.
-        let filePath = decodeURIComponent(request.url.replace('atlas-app://', ''))
+        let filePath = decodeURIComponent(request.url.replace('jarvis-app://', ''))
 
         // Ensure absolute path on Mac
         if (process.platform !== 'win32' && !filePath.startsWith('/')) {
@@ -725,7 +725,7 @@ app.whenReady().then(() => {
         }
     })
 
-    electronApp.setAppUserModelId('com.atlas.app')
+    electronApp.setAppUserModelId('com.jarvis.app')
 
     app.on('browser-window-created', (_, window) => {
         optimizer.watchWindowShortcuts(window)

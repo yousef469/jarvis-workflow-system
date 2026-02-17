@@ -1,4 +1,4 @@
-"""ATLAS V24 Workers Package"""
+"""JARVIS V24 Workers Package"""
 
 from .web_worker import WebWorker, web_worker
 from .vision_worker import VisionWorker, vision_worker

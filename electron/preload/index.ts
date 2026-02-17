@@ -93,15 +93,15 @@ const jarvisAPI = {
             ipcRenderer.invoke('ai:analyzeCode', filePath),
     },
 
-    // Atlas-specific
+    // Jarvis-specific
     captureFrame: (): Promise<string | null> =>
-        ipcRenderer.invoke('atlas:captureFrame'),
+        ipcRenderer.invoke('jarvis:captureFrame'),
     getSources: (): Promise<any[]> =>
-        ipcRenderer.invoke('atlas:getSources'),
+        ipcRenderer.invoke('jarvis:getSources'),
     getBackendStatus: (): Promise<string> =>
-        ipcRenderer.invoke('atlas:getBackendStatus'),
+        ipcRenderer.invoke('jarvis:getBackendStatus'),
     getSystemInfo: (): Promise<any> =>
-        ipcRenderer.invoke('atlas:getSystemInfo'),
+        ipcRenderer.invoke('jarvis:getSystemInfo'),
 
     // Backend logs
     onBackendLog: (callback: (msg: string) => void) => {
@@ -112,4 +112,4 @@ const jarvisAPI = {
 }
 
 contextBridge.exposeInMainWorld('jarvis', jarvisAPI)
-contextBridge.exposeInMainWorld('atlas', jarvisAPI)
+contextBridge.exposeInMainWorld('jarvis', jarvisAPI)

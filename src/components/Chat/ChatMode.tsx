@@ -59,8 +59,8 @@ export default function ChatMode() {
 
             let imageUrl = undefined
             if (data.worker_result?.image_path) {
-                // Convert absolute path to atlas-app:// protocol
-                imageUrl = `atlas-app://${data.worker_result.image_path}`
+                // Convert absolute path to jarvis-app:// protocol
+                imageUrl = `jarvis-app://${data.worker_result.image_path}`
             }
 
             addChatMessage({
