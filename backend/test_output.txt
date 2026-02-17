@@ -1,0 +1,33 @@
+Testing Image Generation...
+[ImageGen] 🧠 Refining prompt for better results...
+[Artist] 🎨 Refining prompt: 'a cat sleeping'
+[Artist] ✅ Refined Prompt: “Velvet charcoal, soft focus, late afternoon, golden hour, diffused light, rim light, dramatic shado...
+[ImageGen] 🎨 Calling ComfyUI API for: “Velvet charcoal, soft focus, late afternoon, golden hour, diffused light, rim light, dramatic shadows, long lens, shallow depth of field, hazy atmosphere, misty forest background, plush fur, subtle tabby pattern, curled paws, relaxed posture, warm color palette, deep purples, warm oranges, muted greens, cinematic lighting, bokeh, volumetric lighting, hyperrealistic, detailed textures, highly polished surface, reminiscent of Rembrandt, painterly brushstrokes, 80mm lens, ultra-detailed, atmospheric perspective, --ar 3:2 --quality 2 --style 400
+
+**Keywords:** velvet charcoal, soft focus, late afternoon, golden hour, diffused light, rim light, dramatic shadows, long lens, shallow depth of field, hazy atmosphere, misty forest background, plush fur, subtle tabby pattern, curled paws, relaxed posture, warm color palette, deep purples, warm oranges, muted greens, cinematic lighting, bokeh, volumetric lighting, hyperrealistic, detailed textures, highly polished surface, reminiscent of Rembrandt, painterly brushstrokes, 80mm lens, ultra-detailed, atmospheric perspective, --ar 3:2 --quality 2 --style 400
+[ImageGen] ❌ ComfyUI Error: 400 - {"error": {"type": "prompt_outputs_failed_validation", "message": "Prompt outputs failed validation", "details": "", "extra_info": {}}, "node_errors": {"4": {"errors": [{"type": "value_not_in_list", "message": "Value not in list", "details": "ckpt_name: 'v1-5-pruned-emaonly.safetensors' not in []", "extra_info": {"input_name": "ckpt_name", "input_config": [[], {"tooltip": "The name of the checkpoint (model) to load."}], "received_value": "v1-5-pruned-emaonly.safetensors"}}], "dependent_outputs": ["9"], "class_type": "CheckpointLoaderSimple"}}}
+[ImageGen] ComfyUI failed or unavailable, falling back to local SD 1.5.
+[ImageGen] 🎨 Loading model: dreamshaper...
+Traceback (most recent call last):
+  File "/Users/yousef/Desktop/live ai asistant/jarvis-system/backend/test_image_gen.py", line 9, in <module>
+    result = process_image_request("generate image of a cat sleeping")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yousef/Desktop/live ai asistant/jarvis-system/backend/image_generator.py", line 195, in process_image_request
+    paths = generate_local(final_prompt)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yousef/Desktop/live ai asistant/jarvis-system/backend/image_generator.py", line 105, in generate_local
+    load_model()
+  File "/Users/yousef/Desktop/live ai asistant/jarvis-system/backend/image_generator.py", line 41, in load_model
+    from diffusers import StableDiffusionPipeline
+  File "/Users/yousef/Desktop/live ai asistant/jarvis_env_mac/lib/python3.12/site-packages/diffusers/__init__.py", line 5, in <module>
+    from .utils import (
+  File "/Users/yousef/Desktop/live ai asistant/jarvis_env_mac/lib/python3.12/site-packages/diffusers/utils/__init__.py", line 131, in <module>
+    from .peft_utils import (
+  File "/Users/yousef/Desktop/live ai asistant/jarvis_env_mac/lib/python3.12/site-packages/diffusers/utils/peft_utils.py", line 26, in <module>
+    from .torch_utils import empty_device_cache
+  File "/Users/yousef/Desktop/live ai asistant/jarvis_env_mac/lib/python3.12/site-packages/diffusers/utils/torch_utils.py", line 33, in <module>
+    "xpu": torch.xpu.empty_cache,
+           ^^^^^^^^^
+  File "/Users/yousef/Desktop/live ai asistant/jarvis_env_mac/lib/python3.12/site-packages/torch/__init__.py", line 1938, in __getattr__
+    raise AttributeError(f"module '{__name__}' has no attribute '{name}'")
+AttributeError: module 'torch' has no attribute 'xpu'

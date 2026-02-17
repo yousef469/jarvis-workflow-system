@@ -1,0 +1,1389 @@
+{
+  "project": "Starship_Realistic_80k",
+  "is_direct_blueprint": true,
+  "parts": [
+    {
+      "name": "Starship_Hull",
+      "type": "tube",
+      "dims": [
+        4.5,
+        4.45,
+        50.0
+      ],
+      "pos": [
+        0,
+        0,
+        25.0
+      ],
+      "material": "stainless_steel",
+      "subsystem": "structures"
+    },
+    {
+      "name": "Starship_Nose",
+      "parent": "Starship_Hull",
+      "type": "cone",
+      "dims": [
+        4.5,
+        18.0
+      ],
+      "material": "stainless_steel",
+      "subsystem": "structures",
+      "pos": [
+        0,
+        0,
+        34.0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Cabin_Window",
+      "parent": "Starship_Nose",
+      "type": "bolt",
+      "dims": [
+        0.4,
+        0.05
+      ],
+      "material": "nasa_glass",
+      "subsystem": "structures",
+      "radial_array": {
+        "count": 12,
+        "radius": 4.0,
+        "axis": "z"
+      },
+      "pos": [
+        0,
+        0,
+        2.0
+      ]
+    },
+    {
+      "name": "Raptor_0",
+      "parent": "Starship_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.4,
+        3.1
+      ],
+      "material": "steel_dark",
+      "subsystem": "propulsion",
+      "pos": [
+        1.2,
+        0.0,
+        -26.5
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Machinery_0",
+          "type": "rod",
+          "dims": [
+            0.01,
+            1.0
+          ],
+          "material": "steel_dark",
+          "radial_array": {
+            "count": 100,
+            "radius": 0.5,
+            "axis": "z"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Raptor_1",
+      "parent": "Starship_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.4,
+        3.1
+      ],
+      "material": "steel_dark",
+      "subsystem": "propulsion",
+      "pos": [
+        1.178314436715248,
+        0.2271014932324922,
+        -26.5
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Machinery_1",
+          "type": "rod",
+          "dims": [
+            0.01,
+            1.0
+          ],
+          "material": "steel_dark",
+          "radial_array": {
+            "count": 100,
+            "radius": 0.5,
+            "axis": "z"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Raptor_2",
+      "parent": "Starship_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.4,
+        3.1
+      ],
+      "material": "steel_dark",
+      "subsystem": "propulsion",
+      "pos": [
+        1.1140415196192872,
+        0.445994946792393,
+        -26.5
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Machinery_2",
+          "type": "rod",
+          "dims": [
+            0.01,
+            1.0
+          ],
+          "material": "steel_dark",
+          "radial_array": {
+            "count": 100,
+            "radius": 0.5,
+            "axis": "z"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Raptor_3",
+      "parent": "Starship_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.4,
+        3.1
+      ],
+      "material": "steel_dark",
+      "subsystem": "propulsion",
+      "pos": [
+        3.365014131324725,
+        2.16256326982239,
+        -26.5
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Machinery_3",
+          "type": "rod",
+          "dims": [
+            0.01,
+            1.0
+          ],
+          "material": "steel_dark",
+          "radial_array": {
+            "count": 100,
+            "radius": 0.5,
+            "axis": "z"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Raptor_4",
+      "parent": "Starship_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.4,
+        3.1
+      ],
+      "material": "steel_dark",
+      "subsystem": "propulsion",
+      "pos": [
+        2.894936152420281,
+        2.7603160459284477,
+        -26.5
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Machinery_4",
+          "type": "rod",
+          "dims": [
+            0.01,
+            1.0
+          ],
+          "material": "steel_dark",
+          "radial_array": {
+            "count": 100,
+            "radius": 0.5,
+            "axis": "z"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Raptor_5",
+      "parent": "Starship_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.4,
+        3.1
+      ],
+      "material": "steel_dark",
+      "subsystem": "propulsion",
+      "pos": [
+        2.3202276382847926,
+        3.258303808201343,
+        -26.5
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Machinery_5",
+          "type": "rod",
+          "dims": [
+            0.01,
+            1.0
+          ],
+          "material": "steel_dark",
+          "radial_array": {
+            "count": 100,
+            "radius": 0.5,
+            "axis": "z"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Raptor_6",
+      "parent": "Starship_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.4,
+        3.1
+      ],
+      "material": "steel_dark",
+      "subsystem": "propulsion",
+      "pos": [
+        1.6616600520075457,
+        3.6385279814180733,
+        -26.5
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Machinery_6",
+          "type": "rod",
+          "dims": [
+            0.01,
+            1.0
+          ],
+          "material": "steel_dark",
+          "radial_array": {
+            "count": 100,
+            "radius": 0.5,
+            "axis": "z"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Raptor_7",
+      "parent": "Starship_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.4,
+        3.1
+      ],
+      "material": "steel_dark",
+      "subsystem": "propulsion",
+      "pos": [
+        0.9430357420377091,
+        3.8872462732941666,
+        -26.5
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Machinery_7",
+          "type": "rod",
+          "dims": [
+            0.01,
+            1.0
+          ],
+          "material": "steel_dark",
+          "radial_array": {
+            "count": 100,
+            "radius": 0.5,
+            "axis": "z"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Raptor_8",
+      "parent": "Starship_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.4,
+        3.1
+      ],
+      "material": "steel_dark",
+      "subsystem": "propulsion",
+      "pos": [
+        0.1903276632949696,
+        3.995469356732032,
+        -26.5
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Machinery_8",
+          "type": "rod",
+          "dims": [
+            0.01,
+            1.0
+          ],
+          "material": "steel_dark",
+          "radial_array": {
+            "count": 100,
+            "radius": 0.5,
+            "axis": "z"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Raptor_9",
+      "parent": "Starship_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.4,
+        3.1
+      ],
+      "material": "steel_dark",
+      "subsystem": "propulsion",
+      "pos": [
+        -0.56925935309314,
+        3.959285767523731,
+        -26.5
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Machinery_9",
+          "type": "rod",
+          "dims": [
+            0.01,
+            1.0
+          ],
+          "material": "steel_dark",
+          "radial_array": {
+            "count": 100,
+            "radius": 0.5,
+            "axis": "z"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Raptor_10",
+      "parent": "Starship_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.4,
+        3.1
+      ],
+      "material": "steel_dark",
+      "subsystem": "propulsion",
+      "pos": [
+        -1.3082718532696866,
+        3.780003274858674,
+        -26.5
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Machinery_10",
+          "type": "rod",
+          "dims": [
+            0.01,
+            1.0
+          ],
+          "material": "steel_dark",
+          "radial_array": {
+            "count": 100,
+            "radius": 0.5,
+            "axis": "z"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Raptor_11",
+      "parent": "Starship_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.4,
+        3.1
+      ],
+      "material": "steel_dark",
+      "subsystem": "propulsion",
+      "pos": [
+        -1.9999999999999991,
+        3.464101615137755,
+        -26.5
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Machinery_11",
+          "type": "rod",
+          "dims": [
+            0.01,
+            1.0
+          ],
+          "material": "steel_dark",
+          "radial_array": {
+            "count": 100,
+            "radius": 0.5,
+            "axis": "z"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Raptor_12",
+      "parent": "Starship_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.4,
+        3.1
+      ],
+      "material": "steel_dark",
+      "subsystem": "propulsion",
+      "pos": [
+        -2.61944293578114,
+        3.022998297417033,
+        -26.5
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Machinery_12",
+          "type": "rod",
+          "dims": [
+            0.01,
+            1.0
+          ],
+          "material": "steel_dark",
+          "radial_array": {
+            "count": 100,
+            "radius": 0.5,
+            "axis": "z"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Raptor_13",
+      "parent": "Starship_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.4,
+        3.1
+      ],
+      "material": "steel_dark",
+      "subsystem": "propulsion",
+      "pos": [
+        -3.144212378971149,
+        2.472635944882422,
+        -26.5
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Machinery_13",
+          "type": "rod",
+          "dims": [
+            0.01,
+            1.0
+          ],
+          "material": "steel_dark",
+          "radial_array": {
+            "count": 100,
+            "radius": 0.5,
+            "axis": "z"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Raptor_14",
+      "parent": "Starship_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.4,
+        3.1
+      ],
+      "material": "steel_dark",
+      "subsystem": "propulsion",
+      "pos": [
+        -3.5553417946196935,
+        1.832906086909642,
+        -26.5
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Machinery_14",
+          "type": "rod",
+          "dims": [
+            0.01,
+            1.0
+          ],
+          "material": "steel_dark",
+          "radial_array": {
+            "count": 100,
+            "radius": 0.5,
+            "axis": "z"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Raptor_15",
+      "parent": "Starship_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.4,
+        3.1
+      ],
+      "material": "steel_dark",
+      "subsystem": "propulsion",
+      "pos": [
+        -3.837971894457989,
+        1.1269302273657202,
+        -26.5
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Machinery_15",
+          "type": "rod",
+          "dims": [
+            0.01,
+            1.0
+          ],
+          "material": "steel_dark",
+          "radial_array": {
+            "count": 100,
+            "radius": 0.5,
+            "axis": "z"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Raptor_16",
+      "parent": "Starship_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.4,
+        3.1
+      ],
+      "material": "steel_dark",
+      "subsystem": "propulsion",
+      "pos": [
+        -3.9818876902923384,
+        0.3802241732167315,
+        -26.5
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Machinery_16",
+          "type": "rod",
+          "dims": [
+            0.01,
+            1.0
+          ],
+          "material": "steel_dark",
+          "radial_array": {
+            "count": 100,
+            "radius": 0.5,
+            "axis": "z"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Raptor_17",
+      "parent": "Starship_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.4,
+        3.1
+      ],
+      "material": "steel_dark",
+      "subsystem": "propulsion",
+      "pos": [
+        -3.9818876902923384,
+        -0.3802241732167305,
+        -26.5
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Machinery_17",
+          "type": "rod",
+          "dims": [
+            0.01,
+            1.0
+          ],
+          "material": "steel_dark",
+          "radial_array": {
+            "count": 100,
+            "radius": 0.5,
+            "axis": "z"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Raptor_18",
+      "parent": "Starship_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.4,
+        3.1
+      ],
+      "material": "steel_dark",
+      "subsystem": "propulsion",
+      "pos": [
+        -3.83797189445799,
+        -1.1269302273657176,
+        -26.5
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Machinery_18",
+          "type": "rod",
+          "dims": [
+            0.01,
+            1.0
+          ],
+          "material": "steel_dark",
+          "radial_array": {
+            "count": 100,
+            "radius": 0.5,
+            "axis": "z"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Raptor_19",
+      "parent": "Starship_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.4,
+        3.1
+      ],
+      "material": "steel_dark",
+      "subsystem": "propulsion",
+      "pos": [
+        -3.5553417946196935,
+        -1.8329060869096427,
+        -26.5
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Machinery_19",
+          "type": "rod",
+          "dims": [
+            0.01,
+            1.0
+          ],
+          "material": "steel_dark",
+          "radial_array": {
+            "count": 100,
+            "radius": 0.5,
+            "axis": "z"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Raptor_20",
+      "parent": "Starship_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.4,
+        3.1
+      ],
+      "material": "steel_dark",
+      "subsystem": "propulsion",
+      "pos": [
+        -3.1442123789711496,
+        -2.472635944882421,
+        -26.5
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Machinery_20",
+          "type": "rod",
+          "dims": [
+            0.01,
+            1.0
+          ],
+          "material": "steel_dark",
+          "radial_array": {
+            "count": 100,
+            "radius": 0.5,
+            "axis": "z"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Raptor_21",
+      "parent": "Starship_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.4,
+        3.1
+      ],
+      "material": "steel_dark",
+      "subsystem": "propulsion",
+      "pos": [
+        -2.619442935781141,
+        -3.0229982974170326,
+        -26.5
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Machinery_21",
+          "type": "rod",
+          "dims": [
+            0.01,
+            1.0
+          ],
+          "material": "steel_dark",
+          "radial_array": {
+            "count": 100,
+            "radius": 0.5,
+            "axis": "z"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Raptor_22",
+      "parent": "Starship_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.4,
+        3.1
+      ],
+      "material": "steel_dark",
+      "subsystem": "propulsion",
+      "pos": [
+        -2.0000000000000018,
+        -3.464101615137754,
+        -26.5
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Machinery_22",
+          "type": "rod",
+          "dims": [
+            0.01,
+            1.0
+          ],
+          "material": "steel_dark",
+          "radial_array": {
+            "count": 100,
+            "radius": 0.5,
+            "axis": "z"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Raptor_23",
+      "parent": "Starship_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.4,
+        3.1
+      ],
+      "material": "steel_dark",
+      "subsystem": "propulsion",
+      "pos": [
+        -1.3082718532696875,
+        -3.7800032748586734,
+        -26.5
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Machinery_23",
+          "type": "rod",
+          "dims": [
+            0.01,
+            1.0
+          ],
+          "material": "steel_dark",
+          "radial_array": {
+            "count": 100,
+            "radius": 0.5,
+            "axis": "z"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Raptor_24",
+      "parent": "Starship_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.4,
+        3.1
+      ],
+      "material": "steel_dark",
+      "subsystem": "propulsion",
+      "pos": [
+        -0.5692593530931409,
+        -3.9592857675237307,
+        -26.5
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Machinery_24",
+          "type": "rod",
+          "dims": [
+            0.01,
+            1.0
+          ],
+          "material": "steel_dark",
+          "radial_array": {
+            "count": 100,
+            "radius": 0.5,
+            "axis": "z"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Raptor_25",
+      "parent": "Starship_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.4,
+        3.1
+      ],
+      "material": "steel_dark",
+      "subsystem": "propulsion",
+      "pos": [
+        0.19032766329496953,
+        -3.995469356732032,
+        -26.5
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Machinery_25",
+          "type": "rod",
+          "dims": [
+            0.01,
+            1.0
+          ],
+          "material": "steel_dark",
+          "radial_array": {
+            "count": 100,
+            "radius": 0.5,
+            "axis": "z"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Raptor_26",
+      "parent": "Starship_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.4,
+        3.1
+      ],
+      "material": "steel_dark",
+      "subsystem": "propulsion",
+      "pos": [
+        0.9430357420377065,
+        -3.8872462732941675,
+        -26.5
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Machinery_26",
+          "type": "rod",
+          "dims": [
+            0.01,
+            1.0
+          ],
+          "material": "steel_dark",
+          "radial_array": {
+            "count": 100,
+            "radius": 0.5,
+            "axis": "z"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Raptor_27",
+      "parent": "Starship_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.4,
+        3.1
+      ],
+      "material": "steel_dark",
+      "subsystem": "propulsion",
+      "pos": [
+        1.6616600520075473,
+        -3.638527981418073,
+        -26.5
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Machinery_27",
+          "type": "rod",
+          "dims": [
+            0.01,
+            1.0
+          ],
+          "material": "steel_dark",
+          "radial_array": {
+            "count": 100,
+            "radius": 0.5,
+            "axis": "z"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Raptor_28",
+      "parent": "Starship_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.4,
+        3.1
+      ],
+      "material": "steel_dark",
+      "subsystem": "propulsion",
+      "pos": [
+        2.3202276382847917,
+        -3.2583038082013434,
+        -26.5
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Machinery_28",
+          "type": "rod",
+          "dims": [
+            0.01,
+            1.0
+          ],
+          "material": "steel_dark",
+          "radial_array": {
+            "count": 100,
+            "radius": 0.5,
+            "axis": "z"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Raptor_29",
+      "parent": "Starship_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.4,
+        3.1
+      ],
+      "material": "steel_dark",
+      "subsystem": "propulsion",
+      "pos": [
+        2.8949361524202804,
+        -2.760316045928448,
+        -26.5
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Machinery_29",
+          "type": "rod",
+          "dims": [
+            0.01,
+            1.0
+          ],
+          "material": "steel_dark",
+          "radial_array": {
+            "count": 100,
+            "radius": 0.5,
+            "axis": "z"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Raptor_30",
+      "parent": "Starship_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.4,
+        3.1
+      ],
+      "material": "steel_dark",
+      "subsystem": "propulsion",
+      "pos": [
+        3.365014131324723,
+        -2.162563269822393,
+        -26.5
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Machinery_30",
+          "type": "rod",
+          "dims": [
+            0.01,
+            1.0
+          ],
+          "material": "steel_dark",
+          "radial_array": {
+            "count": 100,
+            "radius": 0.5,
+            "axis": "z"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Raptor_31",
+      "parent": "Starship_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.4,
+        3.1
+      ],
+      "material": "steel_dark",
+      "subsystem": "propulsion",
+      "pos": [
+        3.7134717320642907,
+        -1.486649822641309,
+        -26.5
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Machinery_31",
+          "type": "rod",
+          "dims": [
+            0.01,
+            1.0
+          ],
+          "material": "steel_dark",
+          "radial_array": {
+            "count": 100,
+            "radius": 0.5,
+            "axis": "z"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Raptor_32",
+      "parent": "Starship_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.4,
+        3.1
+      ],
+      "material": "steel_dark",
+      "subsystem": "propulsion",
+      "pos": [
+        3.9277147890508264,
+        -0.7570049774416425,
+        -26.5
+      ],
+      "rot": [
+        0,
+        180,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Machinery_32",
+          "type": "rod",
+          "dims": [
+            0.01,
+            1.0
+          ],
+          "material": "steel_dark",
+          "radial_array": {
+            "count": 100,
+            "radius": 0.5,
+            "axis": "z"
+          }
+        }
+      ]
+    },
+    {
+      "name": "TPS_Tiles",
+      "parent": "Starship_Hull",
+      "type": "panel",
+      "dims": [
+        0.2,
+        0.2,
+        0.02
+      ],
+      "material": "heat_shield_phenolic",
+      "subsystem": "thermal",
+      "placement": {
+        "method": "surface_hex",
+        "surface": "Starship_Hull",
+        "coverage": "windward"
+      },
+      "instance_count": 4000
+    },
+    {
+      "name": "Hab_Decks",
+      "parent": "Starship_Nose",
+      "type": "cylinder",
+      "dims": [
+        4.4,
+        0.1
+      ],
+      "material": "aluminum_6061",
+      "subsystem": "structures",
+      "linear_array": {
+        "count": 5,
+        "step": [
+          0,
+          0,
+          3.0
+        ]
+      },
+      "pos": [
+        0,
+        0,
+        -4.0
+      ]
+    },
+    {
+      "name": "Cabin_Detail",
+      "parent": "Hab_Decks",
+      "type": "box",
+      "dims": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "material": "aluminum_6061",
+      "subsystem": "structures",
+      "grid_array": {
+        "count_x": 60,
+        "count_y": 100,
+        "step_x": [
+          0.12,
+          0,
+          0
+        ],
+        "step_y": [
+          0,
+          0.12,
+          0
+        ],
+        "per_parent_instance": true
+      },
+      "pos": [
+        0,
+        0,
+        0.1
+      ]
+    },
+    {
+      "name": "Internal_Strut",
+      "parent": "Starship_Hull",
+      "type": "box",
+      "dims": [
+        0.03,
+        0.03,
+        0.8
+      ],
+      "material": "aluminum_6061",
+      "subsystem": "structures",
+      "linear_array": {
+        "count": 50,
+        "step": [
+          0,
+          0,
+          1.0
+        ]
+      },
+      "radial_array": {
+        "count": 800,
+        "radius": 4.45,
+        "axis": "z"
+      },
+      "pos": [
+        0,
+        0,
+        -24.0
+      ]
+    }
+  ]
+}

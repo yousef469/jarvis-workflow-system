@@ -1,0 +1,4621 @@
+{
+  "project": "MARS INGENUITY - HYPER-FIDELITY ASSEMBLY",
+  "is_direct_blueprint": true,
+  "parts": [
+    {
+      "name": "Fuselage_Chassis",
+      "type": "box",
+      "dims": [
+        0.14,
+        0.14,
+        0.14
+      ],
+      "pos": [
+        0,
+        0,
+        0.1
+      ],
+      "material": "gold_foil",
+      "subsystem": "structures",
+      "sub_parts": [
+        {
+          "name": "Rotor_Mast",
+          "type": "cylinder",
+          "dims": [
+            0.018,
+            0.45
+          ],
+          "pos": [
+            0,
+            0,
+            0.25
+          ],
+          "material": "carbon_fiber",
+          "sub_parts": [
+            {
+              "name": "Lower_Hub",
+              "type": "cylinder",
+              "dims": [
+                0.045,
+                0.04
+              ],
+              "pos": [
+                0,
+                0,
+                -0.07
+              ],
+              "material": "titanium_grade_5",
+              "sub_parts": [
+                {
+                  "name": "Lower_Blade_0",
+                  "type": "wing",
+                  "dims": [
+                    1.2,
+                    0.12,
+                    0.01
+                  ],
+                  "pos": [
+                    0.6,
+                    0.0,
+                    0
+                  ],
+                  "rot": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "material": "carbon_fiber",
+                  "sub_parts": [
+                    {
+                      "name": "Lower_Blade_0_Rib_0",
+                      "type": "rib",
+                      "dims": [
+                        0.001,
+                        0.1,
+                        0.006
+                      ],
+                      "pos": [
+                        -0.55,
+                        0,
+                        0
+                      ],
+                      "material": "aluminum_6061"
+                    },
+                    {
+                      "name": "Lower_Blade_0_Rib_1",
+                      "type": "rib",
+                      "dims": [
+                        0.001,
+                        0.1,
+                        0.006
+                      ],
+                      "pos": [
+                        -0.47200000000000003,
+                        0,
+                        0
+                      ],
+                      "material": "aluminum_6061"
+                    },
+                    {
+                      "name": "Lower_Blade_0_Rib_2",
+                      "type": "rib",
+                      "dims": [
+                        0.001,
+                        0.1,
+                        0.006
+                      ],
+                      "pos": [
+                        -0.394,
+                        0,
+                        0
+                      ],
+                      "material": "aluminum_6061"
+                    },
+                    {
+                      "name": "Lower_Blade_0_Rib_3",
+                      "type": "rib",
+                      "dims": [
+                        0.001,
+                        0.1,
+                        0.006
+                      ],
+                      "pos": [
+                        -0.31600000000000006,
+                        0,
+                        0
+                      ],
+                      "material": "aluminum_6061"
+                    },
+                    {
+                      "name": "Lower_Blade_0_Rib_4",
+                      "type": "rib",
+                      "dims": [
+                        0.001,
+                        0.1,
+                        0.006
+                      ],
+                      "pos": [
+                        -0.23800000000000004,
+                        0,
+                        0
+                      ],
+                      "material": "aluminum_6061"
+                    },
+                    {
+                      "name": "Lower_Blade_0_Rib_5",
+                      "type": "rib",
+                      "dims": [
+                        0.001,
+                        0.1,
+                        0.006
+                      ],
+                      "pos": [
+                        -0.16000000000000003,
+                        0,
+                        0
+                      ],
+                      "material": "aluminum_6061"
+                    },
+                    {
+                      "name": "Lower_Blade_0_Rib_6",
+                      "type": "rib",
+                      "dims": [
+                        0.001,
+                        0.1,
+                        0.006
+                      ],
+                      "pos": [
+                        -0.08200000000000007,
+                        0,
+                        0
+                      ],
+                      "material": "aluminum_6061"
+                    },
+                    {
+                      "name": "Lower_Blade_0_Rib_7",
+                      "type": "rib",
+                      "dims": [
+                        0.001,
+                        0.1,
+                        0.006
+                      ],
+                      "pos": [
+                        -0.0040000000000000036,
+                        0,
+                        0
+                      ],
+                      "material": "aluminum_6061"
+                    },
+                    {
+                      "name": "Lower_Blade_0_Rib_8",
+                      "type": "rib",
+                      "dims": [
+                        0.001,
+                        0.1,
+                        0.006
+                      ],
+                      "pos": [
+                        0.07399999999999995,
+                        0,
+                        0
+                      ],
+                      "material": "aluminum_6061"
+                    },
+                    {
+                      "name": "Lower_Blade_0_Rib_9",
+                      "type": "rib",
+                      "dims": [
+                        0.001,
+                        0.1,
+                        0.006
+                      ],
+                      "pos": [
+                        0.1519999999999999,
+                        0,
+                        0
+                      ],
+                      "material": "aluminum_6061"
+                    },
+                    {
+                      "name": "Lower_Blade_0_Rib_10",
+                      "type": "rib",
+                      "dims": [
+                        0.001,
+                        0.1,
+                        0.006
+                      ],
+                      "pos": [
+                        0.22999999999999998,
+                        0,
+                        0
+                      ],
+                      "material": "aluminum_6061"
+                    },
+                    {
+                      "name": "Lower_Blade_0_Rib_11",
+                      "type": "rib",
+                      "dims": [
+                        0.001,
+                        0.1,
+                        0.006
+                      ],
+                      "pos": [
+                        0.30799999999999994,
+                        0,
+                        0
+                      ],
+                      "material": "aluminum_6061"
+                    },
+                    {
+                      "name": "Lower_Blade_0_Rib_12",
+                      "type": "rib",
+                      "dims": [
+                        0.001,
+                        0.1,
+                        0.006
+                      ],
+                      "pos": [
+                        0.3859999999999999,
+                        0,
+                        0
+                      ],
+                      "material": "aluminum_6061"
+                    },
+                    {
+                      "name": "Lower_Blade_0_Rib_13",
+                      "type": "rib",
+                      "dims": [
+                        0.001,
+                        0.1,
+                        0.006
+                      ],
+                      "pos": [
+                        0.46399999999999997,
+                        0,
+                        0
+                      ],
+                      "material": "aluminum_6061"
+                    },
+                    {
+                      "name": "Lower_Blade_0_Rib_14",
+                      "type": "rib",
+                      "dims": [
+                        0.001,
+                        0.1,
+                        0.006
+                      ],
+                      "pos": [
+                        0.542,
+                        0,
+                        0
+                      ],
+                      "material": "aluminum_6061"
+                    }
+                  ]
+                },
+                {
+                  "name": "Lower_Blade_1",
+                  "type": "wing",
+                  "dims": [
+                    1.2,
+                    0.12,
+                    0.01
+                  ],
+                  "pos": [
+                    -0.6,
+                    7.347880794884119e-17,
+                    0
+                  ],
+                  "rot": [
+                    0,
+                    0,
+                    180
+                  ],
+                  "material": "carbon_fiber",
+                  "sub_parts": [
+                    {
+                      "name": "Lower_Blade_1_Rib_0",
+                      "type": "rib",
+                      "dims": [
+                        0.001,
+                        0.1,
+                        0.006
+                      ],
+                      "pos": [
+                        -0.55,
+                        0,
+                        0
+                      ],
+                      "material": "aluminum_6061"
+                    },
+                    {
+                      "name": "Lower_Blade_1_Rib_1",
+                      "type": "rib",
+                      "dims": [
+                        0.001,
+                        0.1,
+                        0.006
+                      ],
+                      "pos": [
+                        -0.47200000000000003,
+                        0,
+                        0
+                      ],
+                      "material": "aluminum_6061"
+                    },
+                    {
+                      "name": "Lower_Blade_1_Rib_2",
+                      "type": "rib",
+                      "dims": [
+                        0.001,
+                        0.1,
+                        0.006
+                      ],
+                      "pos": [
+                        -0.394,
+                        0,
+                        0
+                      ],
+                      "material": "aluminum_6061"
+                    },
+                    {
+                      "name": "Lower_Blade_1_Rib_3",
+                      "type": "rib",
+                      "dims": [
+                        0.001,
+                        0.1,
+                        0.006
+                      ],
+                      "pos": [
+                        -0.31600000000000006,
+                        0,
+                        0
+                      ],
+                      "material": "aluminum_6061"
+                    },
+                    {
+                      "name": "Lower_Blade_1_Rib_4",
+                      "type": "rib",
+                      "dims": [
+                        0.001,
+                        0.1,
+                        0.006
+                      ],
+                      "pos": [
+                        -0.23800000000000004,
+                        0,
+                        0
+                      ],
+                      "material": "aluminum_6061"
+                    },
+                    {
+                      "name": "Lower_Blade_1_Rib_5",
+                      "type": "rib",
+                      "dims": [
+                        0.001,
+                        0.1,
+                        0.006
+                      ],
+                      "pos": [
+                        -0.16000000000000003,
+                        0,
+                        0
+                      ],
+                      "material": "aluminum_6061"
+                    },
+                    {
+                      "name": "Lower_Blade_1_Rib_6",
+                      "type": "rib",
+                      "dims": [
+                        0.001,
+                        0.1,
+                        0.006
+                      ],
+                      "pos": [
+                        -0.08200000000000007,
+                        0,
+                        0
+                      ],
+                      "material": "aluminum_6061"
+                    },
+                    {
+                      "name": "Lower_Blade_1_Rib_7",
+                      "type": "rib",
+                      "dims": [
+                        0.001,
+                        0.1,
+                        0.006
+                      ],
+                      "pos": [
+                        -0.0040000000000000036,
+                        0,
+                        0
+                      ],
+                      "material": "aluminum_6061"
+                    },
+                    {
+                      "name": "Lower_Blade_1_Rib_8",
+                      "type": "rib",
+                      "dims": [
+                        0.001,
+                        0.1,
+                        0.006
+                      ],
+                      "pos": [
+                        0.07399999999999995,
+                        0,
+                        0
+                      ],
+                      "material": "aluminum_6061"
+                    },
+                    {
+                      "name": "Lower_Blade_1_Rib_9",
+                      "type": "rib",
+                      "dims": [
+                        0.001,
+                        0.1,
+                        0.006
+                      ],
+                      "pos": [
+                        0.1519999999999999,
+                        0,
+                        0
+                      ],
+                      "material": "aluminum_6061"
+                    },
+                    {
+                      "name": "Lower_Blade_1_Rib_10",
+                      "type": "rib",
+                      "dims": [
+                        0.001,
+                        0.1,
+                        0.006
+                      ],
+                      "pos": [
+                        0.22999999999999998,
+                        0,
+                        0
+                      ],
+                      "material": "aluminum_6061"
+                    },
+                    {
+                      "name": "Lower_Blade_1_Rib_11",
+                      "type": "rib",
+                      "dims": [
+                        0.001,
+                        0.1,
+                        0.006
+                      ],
+                      "pos": [
+                        0.30799999999999994,
+                        0,
+                        0
+                      ],
+                      "material": "aluminum_6061"
+                    },
+                    {
+                      "name": "Lower_Blade_1_Rib_12",
+                      "type": "rib",
+                      "dims": [
+                        0.001,
+                        0.1,
+                        0.006
+                      ],
+                      "pos": [
+                        0.3859999999999999,
+                        0,
+                        0
+                      ],
+                      "material": "aluminum_6061"
+                    },
+                    {
+                      "name": "Lower_Blade_1_Rib_13",
+                      "type": "rib",
+                      "dims": [
+                        0.001,
+                        0.1,
+                        0.006
+                      ],
+                      "pos": [
+                        0.46399999999999997,
+                        0,
+                        0
+                      ],
+                      "material": "aluminum_6061"
+                    },
+                    {
+                      "name": "Lower_Blade_1_Rib_14",
+                      "type": "rib",
+                      "dims": [
+                        0.001,
+                        0.1,
+                        0.006
+                      ],
+                      "pos": [
+                        0.542,
+                        0,
+                        0
+                      ],
+                      "material": "aluminum_6061"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Upper_Hub",
+              "type": "cylinder",
+              "dims": [
+                0.045,
+                0.04
+              ],
+              "pos": [
+                0,
+                0,
+                0.13
+              ],
+              "material": "titanium_grade_5",
+              "sub_parts": [
+                {
+                  "name": "Upper_Blade_0",
+                  "type": "wing",
+                  "dims": [
+                    1.2,
+                    0.12,
+                    0.01
+                  ],
+                  "pos": [
+                    0.4242640687119285,
+                    0.4242640687119285,
+                    0
+                  ],
+                  "rot": [
+                    0,
+                    0,
+                    45
+                  ],
+                  "material": "carbon_fiber",
+                  "sub_parts": [
+                    {
+                      "name": "Upper_Blade_0_Rib_0",
+                      "type": "rib",
+                      "dims": [
+                        0.001,
+                        0.1,
+                        0.006
+                      ],
+                      "pos": [
+                        -0.55,
+                        0,
+                        0
+                      ],
+                      "material": "aluminum_6061"
+                    },
+                    {
+                      "name": "Upper_Blade_0_Rib_1",
+                      "type": "rib",
+                      "dims": [
+                        0.001,
+                        0.1,
+                        0.006
+                      ],
+                      "pos": [
+                        -0.47200000000000003,
+                        0,
+                        0
+                      ],
+                      "material": "aluminum_6061"
+                    },
+                    {
+                      "name": "Upper_Blade_0_Rib_2",
+                      "type": "rib",
+                      "dims": [
+                        0.001,
+                        0.1,
+                        0.006
+                      ],
+                      "pos": [
+                        -0.394,
+                        0,
+                        0
+                      ],
+                      "material": "aluminum_6061"
+                    },
+                    {
+                      "name": "Upper_Blade_0_Rib_3",
+                      "type": "rib",
+                      "dims": [
+                        0.001,
+                        0.1,
+                        0.006
+                      ],
+                      "pos": [
+                        -0.31600000000000006,
+                        0,
+                        0
+                      ],
+                      "material": "aluminum_6061"
+                    },
+                    {
+                      "name": "Upper_Blade_0_Rib_4",
+                      "type": "rib",
+                      "dims": [
+                        0.001,
+                        0.1,
+                        0.006
+                      ],
+                      "pos": [
+                        -0.23800000000000004,
+                        0,
+                        0
+                      ],
+                      "material": "aluminum_6061"
+                    },
+                    {
+                      "name": "Upper_Blade_0_Rib_5",
+                      "type": "rib",
+                      "dims": [
+                        0.001,
+                        0.1,
+                        0.006
+                      ],
+                      "pos": [
+                        -0.16000000000000003,
+                        0,
+                        0
+                      ],
+                      "material": "aluminum_6061"
+                    },
+                    {
+                      "name": "Upper_Blade_0_Rib_6",
+                      "type": "rib",
+                      "dims": [
+                        0.001,
+                        0.1,
+                        0.006
+                      ],
+                      "pos": [
+                        -0.08200000000000007,
+                        0,
+                        0
+                      ],
+                      "material": "aluminum_6061"
+                    },
+                    {
+                      "name": "Upper_Blade_0_Rib_7",
+                      "type": "rib",
+                      "dims": [
+                        0.001,
+                        0.1,
+                        0.006
+                      ],
+                      "pos": [
+                        -0.0040000000000000036,
+                        0,
+                        0
+                      ],
+                      "material": "aluminum_6061"
+                    },
+                    {
+                      "name": "Upper_Blade_0_Rib_8",
+                      "type": "rib",
+                      "dims": [
+                        0.001,
+                        0.1,
+                        0.006
+                      ],
+                      "pos": [
+                        0.07399999999999995,
+                        0,
+                        0
+                      ],
+                      "material": "aluminum_6061"
+                    },
+                    {
+                      "name": "Upper_Blade_0_Rib_9",
+                      "type": "rib",
+                      "dims": [
+                        0.001,
+                        0.1,
+                        0.006
+                      ],
+                      "pos": [
+                        0.1519999999999999,
+                        0,
+                        0
+                      ],
+                      "material": "aluminum_6061"
+                    },
+                    {
+                      "name": "Upper_Blade_0_Rib_10",
+                      "type": "rib",
+                      "dims": [
+                        0.001,
+                        0.1,
+                        0.006
+                      ],
+                      "pos": [
+                        0.22999999999999998,
+                        0,
+                        0
+                      ],
+                      "material": "aluminum_6061"
+                    },
+                    {
+                      "name": "Upper_Blade_0_Rib_11",
+                      "type": "rib",
+                      "dims": [
+                        0.001,
+                        0.1,
+                        0.006
+                      ],
+                      "pos": [
+                        0.30799999999999994,
+                        0,
+                        0
+                      ],
+                      "material": "aluminum_6061"
+                    },
+                    {
+                      "name": "Upper_Blade_0_Rib_12",
+                      "type": "rib",
+                      "dims": [
+                        0.001,
+                        0.1,
+                        0.006
+                      ],
+                      "pos": [
+                        0.3859999999999999,
+                        0,
+                        0
+                      ],
+                      "material": "aluminum_6061"
+                    },
+                    {
+                      "name": "Upper_Blade_0_Rib_13",
+                      "type": "rib",
+                      "dims": [
+                        0.001,
+                        0.1,
+                        0.006
+                      ],
+                      "pos": [
+                        0.46399999999999997,
+                        0,
+                        0
+                      ],
+                      "material": "aluminum_6061"
+                    },
+                    {
+                      "name": "Upper_Blade_0_Rib_14",
+                      "type": "rib",
+                      "dims": [
+                        0.001,
+                        0.1,
+                        0.006
+                      ],
+                      "pos": [
+                        0.542,
+                        0,
+                        0
+                      ],
+                      "material": "aluminum_6061"
+                    }
+                  ]
+                },
+                {
+                  "name": "Upper_Blade_1",
+                  "type": "wing",
+                  "dims": [
+                    1.2,
+                    0.12,
+                    0.01
+                  ],
+                  "pos": [
+                    -0.4242640687119286,
+                    -0.42426406871192845,
+                    0
+                  ],
+                  "rot": [
+                    0,
+                    0,
+                    225
+                  ],
+                  "material": "carbon_fiber",
+                  "sub_parts": [
+                    {
+                      "name": "Upper_Blade_1_Rib_0",
+                      "type": "rib",
+                      "dims": [
+                        0.001,
+                        0.1,
+                        0.006
+                      ],
+                      "pos": [
+                        -0.55,
+                        0,
+                        0
+                      ],
+                      "material": "aluminum_6061"
+                    },
+                    {
+                      "name": "Upper_Blade_1_Rib_1",
+                      "type": "rib",
+                      "dims": [
+                        0.001,
+                        0.1,
+                        0.006
+                      ],
+                      "pos": [
+                        -0.47200000000000003,
+                        0,
+                        0
+                      ],
+                      "material": "aluminum_6061"
+                    },
+                    {
+                      "name": "Upper_Blade_1_Rib_2",
+                      "type": "rib",
+                      "dims": [
+                        0.001,
+                        0.1,
+                        0.006
+                      ],
+                      "pos": [
+                        -0.394,
+                        0,
+                        0
+                      ],
+                      "material": "aluminum_6061"
+                    },
+                    {
+                      "name": "Upper_Blade_1_Rib_3",
+                      "type": "rib",
+                      "dims": [
+                        0.001,
+                        0.1,
+                        0.006
+                      ],
+                      "pos": [
+                        -0.31600000000000006,
+                        0,
+                        0
+                      ],
+                      "material": "aluminum_6061"
+                    },
+                    {
+                      "name": "Upper_Blade_1_Rib_4",
+                      "type": "rib",
+                      "dims": [
+                        0.001,
+                        0.1,
+                        0.006
+                      ],
+                      "pos": [
+                        -0.23800000000000004,
+                        0,
+                        0
+                      ],
+                      "material": "aluminum_6061"
+                    },
+                    {
+                      "name": "Upper_Blade_1_Rib_5",
+                      "type": "rib",
+                      "dims": [
+                        0.001,
+                        0.1,
+                        0.006
+                      ],
+                      "pos": [
+                        -0.16000000000000003,
+                        0,
+                        0
+                      ],
+                      "material": "aluminum_6061"
+                    },
+                    {
+                      "name": "Upper_Blade_1_Rib_6",
+                      "type": "rib",
+                      "dims": [
+                        0.001,
+                        0.1,
+                        0.006
+                      ],
+                      "pos": [
+                        -0.08200000000000007,
+                        0,
+                        0
+                      ],
+                      "material": "aluminum_6061"
+                    },
+                    {
+                      "name": "Upper_Blade_1_Rib_7",
+                      "type": "rib",
+                      "dims": [
+                        0.001,
+                        0.1,
+                        0.006
+                      ],
+                      "pos": [
+                        -0.0040000000000000036,
+                        0,
+                        0
+                      ],
+                      "material": "aluminum_6061"
+                    },
+                    {
+                      "name": "Upper_Blade_1_Rib_8",
+                      "type": "rib",
+                      "dims": [
+                        0.001,
+                        0.1,
+                        0.006
+                      ],
+                      "pos": [
+                        0.07399999999999995,
+                        0,
+                        0
+                      ],
+                      "material": "aluminum_6061"
+                    },
+                    {
+                      "name": "Upper_Blade_1_Rib_9",
+                      "type": "rib",
+                      "dims": [
+                        0.001,
+                        0.1,
+                        0.006
+                      ],
+                      "pos": [
+                        0.1519999999999999,
+                        0,
+                        0
+                      ],
+                      "material": "aluminum_6061"
+                    },
+                    {
+                      "name": "Upper_Blade_1_Rib_10",
+                      "type": "rib",
+                      "dims": [
+                        0.001,
+                        0.1,
+                        0.006
+                      ],
+                      "pos": [
+                        0.22999999999999998,
+                        0,
+                        0
+                      ],
+                      "material": "aluminum_6061"
+                    },
+                    {
+                      "name": "Upper_Blade_1_Rib_11",
+                      "type": "rib",
+                      "dims": [
+                        0.001,
+                        0.1,
+                        0.006
+                      ],
+                      "pos": [
+                        0.30799999999999994,
+                        0,
+                        0
+                      ],
+                      "material": "aluminum_6061"
+                    },
+                    {
+                      "name": "Upper_Blade_1_Rib_12",
+                      "type": "rib",
+                      "dims": [
+                        0.001,
+                        0.1,
+                        0.006
+                      ],
+                      "pos": [
+                        0.3859999999999999,
+                        0,
+                        0
+                      ],
+                      "material": "aluminum_6061"
+                    },
+                    {
+                      "name": "Upper_Blade_1_Rib_13",
+                      "type": "rib",
+                      "dims": [
+                        0.001,
+                        0.1,
+                        0.006
+                      ],
+                      "pos": [
+                        0.46399999999999997,
+                        0,
+                        0
+                      ],
+                      "material": "aluminum_6061"
+                    },
+                    {
+                      "name": "Upper_Blade_1_Rib_14",
+                      "type": "rib",
+                      "dims": [
+                        0.001,
+                        0.1,
+                        0.006
+                      ],
+                      "pos": [
+                        0.542,
+                        0,
+                        0
+                      ],
+                      "material": "aluminum_6061"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Solar_Array_Frame",
+              "type": "panel",
+              "dims": [
+                0.4,
+                0.4,
+                0.008
+              ],
+              "pos": [
+                0,
+                0,
+                0.23
+              ],
+              "material": "carbon_fiber",
+              "sub_parts": [
+                {
+                  "name": "Cell_0_0",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    -0.18,
+                    -0.18,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_0_1",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    -0.18,
+                    -0.13999999999999999,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_0_2",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    -0.18,
+                    -0.09999999999999999,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_0_3",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    -0.18,
+                    -0.06,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_0_4",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    -0.18,
+                    -0.01999999999999999,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_0_5",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    -0.18,
+                    0.020000000000000018,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_0_6",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    -0.18,
+                    0.06,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_0_7",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    -0.18,
+                    0.10000000000000003,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_0_8",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    -0.18,
+                    0.14,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_0_9",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    -0.18,
+                    0.18,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_1_0",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    -0.13999999999999999,
+                    -0.18,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_1_1",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    -0.13999999999999999,
+                    -0.13999999999999999,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_1_2",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    -0.13999999999999999,
+                    -0.09999999999999999,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_1_3",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    -0.13999999999999999,
+                    -0.06,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_1_4",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    -0.13999999999999999,
+                    -0.01999999999999999,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_1_5",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    -0.13999999999999999,
+                    0.020000000000000018,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_1_6",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    -0.13999999999999999,
+                    0.06,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_1_7",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    -0.13999999999999999,
+                    0.10000000000000003,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_1_8",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    -0.13999999999999999,
+                    0.14,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_1_9",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    -0.13999999999999999,
+                    0.18,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_2_0",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    -0.09999999999999999,
+                    -0.18,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_2_1",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    -0.09999999999999999,
+                    -0.13999999999999999,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_2_2",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    -0.09999999999999999,
+                    -0.09999999999999999,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_2_3",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    -0.09999999999999999,
+                    -0.06,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_2_4",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    -0.09999999999999999,
+                    -0.01999999999999999,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_2_5",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    -0.09999999999999999,
+                    0.020000000000000018,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_2_6",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    -0.09999999999999999,
+                    0.06,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_2_7",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    -0.09999999999999999,
+                    0.10000000000000003,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_2_8",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    -0.09999999999999999,
+                    0.14,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_2_9",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    -0.09999999999999999,
+                    0.18,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_3_0",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    -0.06,
+                    -0.18,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_3_1",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    -0.06,
+                    -0.13999999999999999,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_3_2",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    -0.06,
+                    -0.09999999999999999,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_3_3",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    -0.06,
+                    -0.06,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_3_4",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    -0.06,
+                    -0.01999999999999999,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_3_5",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    -0.06,
+                    0.020000000000000018,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_3_6",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    -0.06,
+                    0.06,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_3_7",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    -0.06,
+                    0.10000000000000003,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_3_8",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    -0.06,
+                    0.14,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_3_9",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    -0.06,
+                    0.18,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_4_0",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    -0.01999999999999999,
+                    -0.18,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_4_1",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    -0.01999999999999999,
+                    -0.13999999999999999,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_4_2",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    -0.01999999999999999,
+                    -0.09999999999999999,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_4_3",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    -0.01999999999999999,
+                    -0.06,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_4_4",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    -0.01999999999999999,
+                    -0.01999999999999999,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_4_5",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    -0.01999999999999999,
+                    0.020000000000000018,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_4_6",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    -0.01999999999999999,
+                    0.06,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_4_7",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    -0.01999999999999999,
+                    0.10000000000000003,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_4_8",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    -0.01999999999999999,
+                    0.14,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_4_9",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    -0.01999999999999999,
+                    0.18,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_5_0",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    0.020000000000000018,
+                    -0.18,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_5_1",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    0.020000000000000018,
+                    -0.13999999999999999,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_5_2",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    0.020000000000000018,
+                    -0.09999999999999999,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_5_3",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    0.020000000000000018,
+                    -0.06,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_5_4",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    0.020000000000000018,
+                    -0.01999999999999999,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_5_5",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    0.020000000000000018,
+                    0.020000000000000018,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_5_6",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    0.020000000000000018,
+                    0.06,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_5_7",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    0.020000000000000018,
+                    0.10000000000000003,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_5_8",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    0.020000000000000018,
+                    0.14,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_5_9",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    0.020000000000000018,
+                    0.18,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_6_0",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    0.06,
+                    -0.18,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_6_1",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    0.06,
+                    -0.13999999999999999,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_6_2",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    0.06,
+                    -0.09999999999999999,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_6_3",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    0.06,
+                    -0.06,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_6_4",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    0.06,
+                    -0.01999999999999999,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_6_5",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    0.06,
+                    0.020000000000000018,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_6_6",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    0.06,
+                    0.06,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_6_7",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    0.06,
+                    0.10000000000000003,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_6_8",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    0.06,
+                    0.14,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_6_9",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    0.06,
+                    0.18,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_7_0",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    0.10000000000000003,
+                    -0.18,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_7_1",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    0.10000000000000003,
+                    -0.13999999999999999,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_7_2",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    0.10000000000000003,
+                    -0.09999999999999999,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_7_3",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    0.10000000000000003,
+                    -0.06,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_7_4",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    0.10000000000000003,
+                    -0.01999999999999999,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_7_5",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    0.10000000000000003,
+                    0.020000000000000018,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_7_6",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    0.10000000000000003,
+                    0.06,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_7_7",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    0.10000000000000003,
+                    0.10000000000000003,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_7_8",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    0.10000000000000003,
+                    0.14,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_7_9",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    0.10000000000000003,
+                    0.18,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_8_0",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    0.14,
+                    -0.18,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_8_1",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    0.14,
+                    -0.13999999999999999,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_8_2",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    0.14,
+                    -0.09999999999999999,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_8_3",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    0.14,
+                    -0.06,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_8_4",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    0.14,
+                    -0.01999999999999999,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_8_5",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    0.14,
+                    0.020000000000000018,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_8_6",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    0.14,
+                    0.06,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_8_7",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    0.14,
+                    0.10000000000000003,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_8_8",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    0.14,
+                    0.14,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_8_9",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    0.14,
+                    0.18,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_9_0",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    0.18,
+                    -0.18,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_9_1",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    0.18,
+                    -0.13999999999999999,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_9_2",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    0.18,
+                    -0.09999999999999999,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_9_3",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    0.18,
+                    -0.06,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_9_4",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    0.18,
+                    -0.01999999999999999,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_9_5",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    0.18,
+                    0.020000000000000018,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_9_6",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    0.18,
+                    0.06,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_9_7",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    0.18,
+                    0.10000000000000003,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_9_8",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    0.18,
+                    0.14,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                },
+                {
+                  "name": "Cell_9_9",
+                  "type": "panel",
+                  "dims": [
+                    0.038,
+                    0.038,
+                    0.001
+                  ],
+                  "pos": [
+                    0.18,
+                    0.18,
+                    0.005
+                  ],
+                  "material": "solar_blue"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Leg_Strut_0",
+          "type": "cylinder",
+          "dims": [
+            0.015,
+            0.45
+          ],
+          "pos": [
+            0.17750000000000002,
+            0.17750000000000002,
+            -0.21909902576697318
+          ],
+          "rot": [
+            0,
+            135,
+            45
+          ],
+          "material": "carbon_fiber",
+          "sub_parts": [
+            {
+              "name": "Leg_Foot_0",
+              "type": "panel",
+              "dims": [
+                0.07,
+                0.07,
+                0.005
+              ],
+              "pos": [
+                0,
+                0,
+                0.225
+              ],
+              "material": "matte_black"
+            }
+          ]
+        },
+        {
+          "name": "Leg_Strut_1",
+          "type": "cylinder",
+          "dims": [
+            0.015,
+            0.45
+          ],
+          "pos": [
+            -0.1775,
+            0.17750000000000002,
+            -0.21909902576697318
+          ],
+          "rot": [
+            0,
+            135,
+            135
+          ],
+          "material": "carbon_fiber",
+          "sub_parts": [
+            {
+              "name": "Leg_Foot_1",
+              "type": "panel",
+              "dims": [
+                0.07,
+                0.07,
+                0.005
+              ],
+              "pos": [
+                0,
+                0,
+                0.225
+              ],
+              "material": "matte_black"
+            }
+          ]
+        },
+        {
+          "name": "Leg_Strut_2",
+          "type": "cylinder",
+          "dims": [
+            0.015,
+            0.45
+          ],
+          "pos": [
+            0.1775,
+            -0.17750000000000005,
+            -0.21909902576697318
+          ],
+          "rot": [
+            0,
+            135,
+            315
+          ],
+          "material": "carbon_fiber",
+          "sub_parts": [
+            {
+              "name": "Leg_Foot_2",
+              "type": "panel",
+              "dims": [
+                0.07,
+                0.07,
+                0.005
+              ],
+              "pos": [
+                0,
+                0,
+                0.225
+              ],
+              "material": "matte_black"
+            }
+          ]
+        },
+        {
+          "name": "Leg_Strut_3",
+          "type": "cylinder",
+          "dims": [
+            0.015,
+            0.45
+          ],
+          "pos": [
+            -0.17750000000000005,
+            -0.1775,
+            -0.21909902576697318
+          ],
+          "rot": [
+            0,
+            135,
+            225
+          ],
+          "material": "carbon_fiber",
+          "sub_parts": [
+            {
+              "name": "Leg_Foot_3",
+              "type": "panel",
+              "dims": [
+                0.07,
+                0.07,
+                0.005
+              ],
+              "pos": [
+                0,
+                0,
+                0.225
+              ],
+              "material": "matte_black"
+            }
+          ]
+        },
+        {
+          "name": "Bolt_0_0",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            0.071,
+            -0.06,
+            -0.06
+          ],
+          "rot": [
+            0,
+            90,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_0_1",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            0.071,
+            -0.03,
+            -0.06
+          ],
+          "rot": [
+            0,
+            90,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_0_2",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            0.071,
+            0.0,
+            -0.06
+          ],
+          "rot": [
+            0,
+            90,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_0_3",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            0.071,
+            0.03,
+            -0.06
+          ],
+          "rot": [
+            0,
+            90,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_0_4",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            0.071,
+            0.06,
+            -0.06
+          ],
+          "rot": [
+            0,
+            90,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_0_5",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            0.071,
+            -0.06,
+            -0.03
+          ],
+          "rot": [
+            0,
+            90,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_0_6",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            0.071,
+            -0.03,
+            -0.03
+          ],
+          "rot": [
+            0,
+            90,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_0_7",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            0.071,
+            0.0,
+            -0.03
+          ],
+          "rot": [
+            0,
+            90,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_0_8",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            0.071,
+            0.03,
+            -0.03
+          ],
+          "rot": [
+            0,
+            90,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_0_9",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            0.071,
+            0.06,
+            -0.03
+          ],
+          "rot": [
+            0,
+            90,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_0_10",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            0.071,
+            -0.06,
+            0.0
+          ],
+          "rot": [
+            0,
+            90,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_0_11",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            0.071,
+            -0.03,
+            0.0
+          ],
+          "rot": [
+            0,
+            90,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_0_12",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            0.071,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0,
+            90,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_0_13",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            0.071,
+            0.03,
+            0.0
+          ],
+          "rot": [
+            0,
+            90,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_0_14",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            0.071,
+            0.06,
+            0.0
+          ],
+          "rot": [
+            0,
+            90,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_0_15",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            0.071,
+            -0.06,
+            0.03
+          ],
+          "rot": [
+            0,
+            90,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_0_16",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            0.071,
+            -0.03,
+            0.03
+          ],
+          "rot": [
+            0,
+            90,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_0_17",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            0.071,
+            0.0,
+            0.03
+          ],
+          "rot": [
+            0,
+            90,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_0_18",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            0.071,
+            0.03,
+            0.03
+          ],
+          "rot": [
+            0,
+            90,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_0_19",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            0.071,
+            0.06,
+            0.03
+          ],
+          "rot": [
+            0,
+            90,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_0_20",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            0.071,
+            -0.06,
+            0.06
+          ],
+          "rot": [
+            0,
+            90,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_0_21",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            0.071,
+            -0.03,
+            0.06
+          ],
+          "rot": [
+            0,
+            90,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_0_22",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            0.071,
+            0.0,
+            0.06
+          ],
+          "rot": [
+            0,
+            90,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_0_23",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            0.071,
+            0.03,
+            0.06
+          ],
+          "rot": [
+            0,
+            90,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_0_24",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            0.071,
+            0.06,
+            0.06
+          ],
+          "rot": [
+            0,
+            90,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_1_0",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            -0.071,
+            -0.06,
+            -0.06
+          ],
+          "rot": [
+            0,
+            -90,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_1_1",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            -0.071,
+            -0.03,
+            -0.06
+          ],
+          "rot": [
+            0,
+            -90,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_1_2",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            -0.071,
+            0.0,
+            -0.06
+          ],
+          "rot": [
+            0,
+            -90,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_1_3",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            -0.071,
+            0.03,
+            -0.06
+          ],
+          "rot": [
+            0,
+            -90,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_1_4",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            -0.071,
+            0.06,
+            -0.06
+          ],
+          "rot": [
+            0,
+            -90,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_1_5",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            -0.071,
+            -0.06,
+            -0.03
+          ],
+          "rot": [
+            0,
+            -90,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_1_6",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            -0.071,
+            -0.03,
+            -0.03
+          ],
+          "rot": [
+            0,
+            -90,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_1_7",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            -0.071,
+            0.0,
+            -0.03
+          ],
+          "rot": [
+            0,
+            -90,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_1_8",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            -0.071,
+            0.03,
+            -0.03
+          ],
+          "rot": [
+            0,
+            -90,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_1_9",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            -0.071,
+            0.06,
+            -0.03
+          ],
+          "rot": [
+            0,
+            -90,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_1_10",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            -0.071,
+            -0.06,
+            0.0
+          ],
+          "rot": [
+            0,
+            -90,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_1_11",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            -0.071,
+            -0.03,
+            0.0
+          ],
+          "rot": [
+            0,
+            -90,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_1_12",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            -0.071,
+            0.0,
+            0.0
+          ],
+          "rot": [
+            0,
+            -90,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_1_13",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            -0.071,
+            0.03,
+            0.0
+          ],
+          "rot": [
+            0,
+            -90,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_1_14",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            -0.071,
+            0.06,
+            0.0
+          ],
+          "rot": [
+            0,
+            -90,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_1_15",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            -0.071,
+            -0.06,
+            0.03
+          ],
+          "rot": [
+            0,
+            -90,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_1_16",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            -0.071,
+            -0.03,
+            0.03
+          ],
+          "rot": [
+            0,
+            -90,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_1_17",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            -0.071,
+            0.0,
+            0.03
+          ],
+          "rot": [
+            0,
+            -90,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_1_18",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            -0.071,
+            0.03,
+            0.03
+          ],
+          "rot": [
+            0,
+            -90,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_1_19",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            -0.071,
+            0.06,
+            0.03
+          ],
+          "rot": [
+            0,
+            -90,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_1_20",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            -0.071,
+            -0.06,
+            0.06
+          ],
+          "rot": [
+            0,
+            -90,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_1_21",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            -0.071,
+            -0.03,
+            0.06
+          ],
+          "rot": [
+            0,
+            -90,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_1_22",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            -0.071,
+            0.0,
+            0.06
+          ],
+          "rot": [
+            0,
+            -90,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_1_23",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            -0.071,
+            0.03,
+            0.06
+          ],
+          "rot": [
+            0,
+            -90,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_1_24",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            -0.071,
+            0.06,
+            0.06
+          ],
+          "rot": [
+            0,
+            -90,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_2_0",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            -0.06,
+            0.071,
+            -0.06
+          ],
+          "rot": [
+            90,
+            0,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_2_1",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            -0.03,
+            0.071,
+            -0.06
+          ],
+          "rot": [
+            90,
+            0,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_2_2",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            0.0,
+            0.071,
+            -0.06
+          ],
+          "rot": [
+            90,
+            0,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_2_3",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            0.03,
+            0.071,
+            -0.06
+          ],
+          "rot": [
+            90,
+            0,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_2_4",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            0.06,
+            0.071,
+            -0.06
+          ],
+          "rot": [
+            90,
+            0,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_2_5",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            -0.06,
+            0.071,
+            -0.03
+          ],
+          "rot": [
+            90,
+            0,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_2_6",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            -0.03,
+            0.071,
+            -0.03
+          ],
+          "rot": [
+            90,
+            0,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_2_7",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            0.0,
+            0.071,
+            -0.03
+          ],
+          "rot": [
+            90,
+            0,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_2_8",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            0.03,
+            0.071,
+            -0.03
+          ],
+          "rot": [
+            90,
+            0,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_2_9",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            0.06,
+            0.071,
+            -0.03
+          ],
+          "rot": [
+            90,
+            0,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_2_10",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            -0.06,
+            0.071,
+            0.0
+          ],
+          "rot": [
+            90,
+            0,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_2_11",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            -0.03,
+            0.071,
+            0.0
+          ],
+          "rot": [
+            90,
+            0,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_2_12",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            0.0,
+            0.071,
+            0.0
+          ],
+          "rot": [
+            90,
+            0,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_2_13",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            0.03,
+            0.071,
+            0.0
+          ],
+          "rot": [
+            90,
+            0,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_2_14",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            0.06,
+            0.071,
+            0.0
+          ],
+          "rot": [
+            90,
+            0,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_2_15",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            -0.06,
+            0.071,
+            0.03
+          ],
+          "rot": [
+            90,
+            0,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_2_16",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            -0.03,
+            0.071,
+            0.03
+          ],
+          "rot": [
+            90,
+            0,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_2_17",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            0.0,
+            0.071,
+            0.03
+          ],
+          "rot": [
+            90,
+            0,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_2_18",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            0.03,
+            0.071,
+            0.03
+          ],
+          "rot": [
+            90,
+            0,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_2_19",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            0.06,
+            0.071,
+            0.03
+          ],
+          "rot": [
+            90,
+            0,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_2_20",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            -0.06,
+            0.071,
+            0.06
+          ],
+          "rot": [
+            90,
+            0,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_2_21",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            -0.03,
+            0.071,
+            0.06
+          ],
+          "rot": [
+            90,
+            0,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_2_22",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            0.0,
+            0.071,
+            0.06
+          ],
+          "rot": [
+            90,
+            0,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_2_23",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            0.03,
+            0.071,
+            0.06
+          ],
+          "rot": [
+            90,
+            0,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_2_24",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            0.06,
+            0.071,
+            0.06
+          ],
+          "rot": [
+            90,
+            0,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_3_0",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            -0.06,
+            -0.071,
+            -0.06
+          ],
+          "rot": [
+            -90,
+            0,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_3_1",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            -0.03,
+            -0.071,
+            -0.06
+          ],
+          "rot": [
+            -90,
+            0,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_3_2",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            0.0,
+            -0.071,
+            -0.06
+          ],
+          "rot": [
+            -90,
+            0,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_3_3",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            0.03,
+            -0.071,
+            -0.06
+          ],
+          "rot": [
+            -90,
+            0,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_3_4",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            0.06,
+            -0.071,
+            -0.06
+          ],
+          "rot": [
+            -90,
+            0,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_3_5",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            -0.06,
+            -0.071,
+            -0.03
+          ],
+          "rot": [
+            -90,
+            0,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_3_6",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            -0.03,
+            -0.071,
+            -0.03
+          ],
+          "rot": [
+            -90,
+            0,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_3_7",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            0.0,
+            -0.071,
+            -0.03
+          ],
+          "rot": [
+            -90,
+            0,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_3_8",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            0.03,
+            -0.071,
+            -0.03
+          ],
+          "rot": [
+            -90,
+            0,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_3_9",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            0.06,
+            -0.071,
+            -0.03
+          ],
+          "rot": [
+            -90,
+            0,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_3_10",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            -0.06,
+            -0.071,
+            0.0
+          ],
+          "rot": [
+            -90,
+            0,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_3_11",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            -0.03,
+            -0.071,
+            0.0
+          ],
+          "rot": [
+            -90,
+            0,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_3_12",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            0.0,
+            -0.071,
+            0.0
+          ],
+          "rot": [
+            -90,
+            0,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_3_13",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            0.03,
+            -0.071,
+            0.0
+          ],
+          "rot": [
+            -90,
+            0,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_3_14",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            0.06,
+            -0.071,
+            0.0
+          ],
+          "rot": [
+            -90,
+            0,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_3_15",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            -0.06,
+            -0.071,
+            0.03
+          ],
+          "rot": [
+            -90,
+            0,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_3_16",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            -0.03,
+            -0.071,
+            0.03
+          ],
+          "rot": [
+            -90,
+            0,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_3_17",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            0.0,
+            -0.071,
+            0.03
+          ],
+          "rot": [
+            -90,
+            0,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_3_18",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            0.03,
+            -0.071,
+            0.03
+          ],
+          "rot": [
+            -90,
+            0,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_3_19",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            0.06,
+            -0.071,
+            0.03
+          ],
+          "rot": [
+            -90,
+            0,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_3_20",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            -0.06,
+            -0.071,
+            0.06
+          ],
+          "rot": [
+            -90,
+            0,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_3_21",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            -0.03,
+            -0.071,
+            0.06
+          ],
+          "rot": [
+            -90,
+            0,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_3_22",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            0.0,
+            -0.071,
+            0.06
+          ],
+          "rot": [
+            -90,
+            0,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_3_23",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            0.03,
+            -0.071,
+            0.06
+          ],
+          "rot": [
+            -90,
+            0,
+            0
+          ],
+          "material": "steel_chrome"
+        },
+        {
+          "name": "Bolt_3_24",
+          "type": "bolt",
+          "dims": [
+            0.005,
+            0.012
+          ],
+          "pos": [
+            0.06,
+            -0.071,
+            0.06
+          ],
+          "rot": [
+            -90,
+            0,
+            0
+          ],
+          "material": "steel_chrome"
+        }
+      ]
+    }
+  ]
+}

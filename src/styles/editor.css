@@ -1,0 +1,143 @@
+/* ============================================================================
+   JARVIS CODE EDITOR
+   ============================================================================ */
+
+.editor-wrapper {
+    flex: 1;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Tab bar */
+.editor-tabs {
+    display: flex;
+    align-items: center;
+    height: 36px;
+    background: var(--bg-surface);
+    border-bottom: 1px solid var(--border-subtle);
+    overflow-x: auto;
+    padding: 0 4px;
+}
+
+.editor-tabs::-webkit-scrollbar {
+    height: 0;
+}
+
+.editor-tab {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 0 14px;
+    height: 100%;
+    font-size: 12px;
+    color: var(--text-secondary);
+    border-right: 1px solid var(--border-subtle);
+    cursor: pointer;
+    white-space: nowrap;
+    flex-shrink: 0;
+    transition: all 0.1s ease;
+}
+
+.editor-tab:hover {
+    color: var(--text-primary);
+    background: var(--bg-hover);
+}
+
+.editor-tab.active {
+    color: var(--text-primary);
+    background: var(--bg-surface-2);
+    border-bottom: 2px solid var(--accent-primary);
+}
+
+.editor-tab .tab-close {
+    width: 16px;
+    height: 16px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    opacity: 0;
+    transition: opacity 0.1s;
+}
+
+.editor-tab:hover .tab-close {
+    opacity: 0.6;
+}
+
+.editor-tab .tab-close:hover {
+    opacity: 1;
+    background: var(--bg-active);
+}
+
+.editor-tab .tab-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--jarvis-amber);
+}
+
+/* Monaco wrapper */
+.monaco-wrapper {
+    height: 100%;
+    width: 100%;
+}
+
+/* Empty editor */
+.editor-empty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: var(--text-muted);
+    gap: 12px;
+}
+
+.editor-empty-icon {
+    font-size: 48px;
+    opacity: 0.2;
+}
+
+.editor-empty p {
+    font-size: 13px;
+}
+
+/* Terminal container */
+.terminal-container {
+    height: 200px;
+    min-height: 100px;
+    max-height: 400px;
+    background: var(--terminal-bg);
+    border-top: 1px solid var(--border-subtle);
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.terminal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 12px;
+    background: var(--bg-surface);
+    border-bottom: 1px solid var(--border-subtle);
+    height: 30px;
+    flex-shrink: 0;
+}
+
+.terminal-header span {
+    font-size: 11px;
+    font-weight: 500;
+    color: var(--text-secondary);
+}
+
+.terminal-body {
+    flex: 1;
+    overflow: hidden;
+    padding: 4px;
+}
+
+.terminal-body .xterm {
+    height: 100%;
+}

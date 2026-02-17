@@ -1,0 +1,14 @@
+node_modules/
+jarvis_env_mac/
+dist/
+dist-electron/
+*.log
+.DS_Store
+generated_images/
+generated_models/
+server.pid
+ai-asistant/
+backend/models/
+backend/OmniParser/weights/
+backend/generated_models/
+*.glb

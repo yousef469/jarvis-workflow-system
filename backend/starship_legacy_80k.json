@@ -1,0 +1,1794 @@
+{
+  "project": "STARSHIP LEGACY MASTERPIECE V3.2",
+  "is_direct_blueprint": true,
+  "parts": [
+    {
+      "name": "SuperHeavy_Booster_Hull",
+      "type": "tube",
+      "dims": [
+        4.5,
+        4.45,
+        70.0
+      ],
+      "pos": [
+        0,
+        0,
+        35.0
+      ],
+      "material": "stainless_steel_304"
+    },
+    {
+      "name": "Booster_Raptor_0",
+      "parent": "SuperHeavy_Booster_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.2,
+        3.0
+      ],
+      "pos": [
+        1.0,
+        0.0,
+        -36.5
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Booster_Plumbing_0",
+          "type": "tube",
+          "dims": [
+            0.011,
+            0.005,
+            0.5
+          ],
+          "pos": [
+            0,
+            0,
+            1.2
+          ],
+          "radial_array": {
+            "count": 700,
+            "radius": 0.4,
+            "axis": "z"
+          },
+          "material": "steel_chrome"
+        }
+      ]
+    },
+    {
+      "name": "Booster_Raptor_1",
+      "parent": "SuperHeavy_Booster_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.2,
+        3.0
+      ],
+      "pos": [
+        -0.4999999999999998,
+        0.8660254037844387,
+        -36.5
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Booster_Plumbing_1",
+          "type": "tube",
+          "dims": [
+            0.011,
+            0.005,
+            0.5
+          ],
+          "pos": [
+            0,
+            0,
+            1.2
+          ],
+          "radial_array": {
+            "count": 700,
+            "radius": 0.4,
+            "axis": "z"
+          },
+          "material": "steel_chrome"
+        }
+      ]
+    },
+    {
+      "name": "Booster_Raptor_2",
+      "parent": "SuperHeavy_Booster_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.2,
+        3.0
+      ],
+      "pos": [
+        -0.5000000000000004,
+        -0.8660254037844385,
+        -36.5
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Booster_Plumbing_2",
+          "type": "tube",
+          "dims": [
+            0.011,
+            0.005,
+            0.5
+          ],
+          "pos": [
+            0,
+            0,
+            1.2
+          ],
+          "radial_array": {
+            "count": 700,
+            "radius": 0.4,
+            "axis": "z"
+          },
+          "material": "steel_chrome"
+        }
+      ]
+    },
+    {
+      "name": "Booster_Raptor_3",
+      "parent": "SuperHeavy_Booster_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.2,
+        3.0
+      ],
+      "pos": [
+        2.8,
+        0.0,
+        -36.5
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Booster_Plumbing_3",
+          "type": "tube",
+          "dims": [
+            0.011,
+            0.005,
+            0.5
+          ],
+          "pos": [
+            0,
+            0,
+            1.2
+          ],
+          "radial_array": {
+            "count": 700,
+            "radius": 0.4,
+            "axis": "z"
+          },
+          "material": "steel_chrome"
+        }
+      ]
+    },
+    {
+      "name": "Booster_Raptor_4",
+      "parent": "SuperHeavy_Booster_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.2,
+        3.0
+      ],
+      "pos": [
+        2.2652475842498525,
+        1.6457987064189248,
+        -36.5
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Booster_Plumbing_4",
+          "type": "tube",
+          "dims": [
+            0.011,
+            0.005,
+            0.5
+          ],
+          "pos": [
+            0,
+            0,
+            1.2
+          ],
+          "radial_array": {
+            "count": 700,
+            "radius": 0.4,
+            "axis": "z"
+          },
+          "material": "steel_chrome"
+        }
+      ]
+    },
+    {
+      "name": "Booster_Raptor_5",
+      "parent": "SuperHeavy_Booster_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.2,
+        3.0
+      ],
+      "pos": [
+        0.8652475842498528,
+        2.6629582456264296,
+        -36.5
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Booster_Plumbing_5",
+          "type": "tube",
+          "dims": [
+            0.011,
+            0.005,
+            0.5
+          ],
+          "pos": [
+            0,
+            0,
+            1.2
+          ],
+          "radial_array": {
+            "count": 700,
+            "radius": 0.4,
+            "axis": "z"
+          },
+          "material": "steel_chrome"
+        }
+      ]
+    },
+    {
+      "name": "Booster_Raptor_6",
+      "parent": "SuperHeavy_Booster_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.2,
+        3.0
+      ],
+      "pos": [
+        -0.8652475842498525,
+        2.66295824562643,
+        -36.5
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Booster_Plumbing_6",
+          "type": "tube",
+          "dims": [
+            0.011,
+            0.005,
+            0.5
+          ],
+          "pos": [
+            0,
+            0,
+            1.2
+          ],
+          "radial_array": {
+            "count": 700,
+            "radius": 0.4,
+            "axis": "z"
+          },
+          "material": "steel_chrome"
+        }
+      ]
+    },
+    {
+      "name": "Booster_Raptor_7",
+      "parent": "SuperHeavy_Booster_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.2,
+        3.0
+      ],
+      "pos": [
+        -2.2652475842498525,
+        1.645798706418925,
+        -36.5
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Booster_Plumbing_7",
+          "type": "tube",
+          "dims": [
+            0.011,
+            0.005,
+            0.5
+          ],
+          "pos": [
+            0,
+            0,
+            1.2
+          ],
+          "radial_array": {
+            "count": 700,
+            "radius": 0.4,
+            "axis": "z"
+          },
+          "material": "steel_chrome"
+        }
+      ]
+    },
+    {
+      "name": "Booster_Raptor_8",
+      "parent": "SuperHeavy_Booster_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.2,
+        3.0
+      ],
+      "pos": [
+        -2.8,
+        3.429011037612589e-16,
+        -36.5
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Booster_Plumbing_8",
+          "type": "tube",
+          "dims": [
+            0.011,
+            0.005,
+            0.5
+          ],
+          "pos": [
+            0,
+            0,
+            1.2
+          ],
+          "radial_array": {
+            "count": 700,
+            "radius": 0.4,
+            "axis": "z"
+          },
+          "material": "steel_chrome"
+        }
+      ]
+    },
+    {
+      "name": "Booster_Raptor_9",
+      "parent": "SuperHeavy_Booster_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.2,
+        3.0
+      ],
+      "pos": [
+        -2.2652475842498525,
+        -1.6457987064189243,
+        -36.5
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Booster_Plumbing_9",
+          "type": "tube",
+          "dims": [
+            0.011,
+            0.005,
+            0.5
+          ],
+          "pos": [
+            0,
+            0,
+            1.2
+          ],
+          "radial_array": {
+            "count": 700,
+            "radius": 0.4,
+            "axis": "z"
+          },
+          "material": "steel_chrome"
+        }
+      ]
+    },
+    {
+      "name": "Booster_Raptor_10",
+      "parent": "SuperHeavy_Booster_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.2,
+        3.0
+      ],
+      "pos": [
+        -0.8652475842498532,
+        -2.6629582456264296,
+        -36.5
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Booster_Plumbing_10",
+          "type": "tube",
+          "dims": [
+            0.011,
+            0.005,
+            0.5
+          ],
+          "pos": [
+            0,
+            0,
+            1.2
+          ],
+          "radial_array": {
+            "count": 700,
+            "radius": 0.4,
+            "axis": "z"
+          },
+          "material": "steel_chrome"
+        }
+      ]
+    },
+    {
+      "name": "Booster_Raptor_11",
+      "parent": "SuperHeavy_Booster_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.2,
+        3.0
+      ],
+      "pos": [
+        0.8652475842498522,
+        -2.66295824562643,
+        -36.5
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Booster_Plumbing_11",
+          "type": "tube",
+          "dims": [
+            0.011,
+            0.005,
+            0.5
+          ],
+          "pos": [
+            0,
+            0,
+            1.2
+          ],
+          "radial_array": {
+            "count": 700,
+            "radius": 0.4,
+            "axis": "z"
+          },
+          "material": "steel_chrome"
+        }
+      ]
+    },
+    {
+      "name": "Booster_Raptor_12",
+      "parent": "SuperHeavy_Booster_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.2,
+        3.0
+      ],
+      "pos": [
+        2.2652475842498525,
+        -1.6457987064189252,
+        -36.5
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Booster_Plumbing_12",
+          "type": "tube",
+          "dims": [
+            0.011,
+            0.005,
+            0.5
+          ],
+          "pos": [
+            0,
+            0,
+            1.2
+          ],
+          "radial_array": {
+            "count": 700,
+            "radius": 0.4,
+            "axis": "z"
+          },
+          "material": "steel_chrome"
+        }
+      ]
+    },
+    {
+      "name": "Booster_Raptor_13",
+      "parent": "SuperHeavy_Booster_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.2,
+        3.0
+      ],
+      "pos": [
+        3.9,
+        0.0,
+        -36.5
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Booster_Plumbing_13",
+          "type": "tube",
+          "dims": [
+            0.011,
+            0.005,
+            0.5
+          ],
+          "pos": [
+            0,
+            0,
+            1.2
+          ],
+          "radial_array": {
+            "count": 700,
+            "radius": 0.4,
+            "axis": "z"
+          },
+          "material": "steel_chrome"
+        }
+      ]
+    },
+    {
+      "name": "Booster_Raptor_14",
+      "parent": "SuperHeavy_Booster_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.2,
+        3.0
+      ],
+      "pos": [
+        3.7091204135510987,
+        1.205166278062295,
+        -36.5
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Booster_Plumbing_14",
+          "type": "tube",
+          "dims": [
+            0.011,
+            0.005,
+            0.5
+          ],
+          "pos": [
+            0,
+            0,
+            1.2
+          ],
+          "radial_array": {
+            "count": 700,
+            "radius": 0.4,
+            "axis": "z"
+          },
+          "material": "steel_chrome"
+        }
+      ]
+    },
+    {
+      "name": "Booster_Raptor_15",
+      "parent": "SuperHeavy_Booster_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.2,
+        3.0
+      ],
+      "pos": [
+        3.155166278062295,
+        2.292362483940645,
+        -36.5
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Booster_Plumbing_15",
+          "type": "tube",
+          "dims": [
+            0.011,
+            0.005,
+            0.5
+          ],
+          "pos": [
+            0,
+            0,
+            1.2
+          ],
+          "radial_array": {
+            "count": 700,
+            "radius": 0.4,
+            "axis": "z"
+          },
+          "material": "steel_chrome"
+        }
+      ]
+    },
+    {
+      "name": "Booster_Raptor_16",
+      "parent": "SuperHeavy_Booster_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.2,
+        3.0
+      ],
+      "pos": [
+        2.292362483940645,
+        3.155166278062295,
+        -36.5
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Booster_Plumbing_16",
+          "type": "tube",
+          "dims": [
+            0.011,
+            0.005,
+            0.5
+          ],
+          "pos": [
+            0,
+            0,
+            1.2
+          ],
+          "radial_array": {
+            "count": 700,
+            "radius": 0.4,
+            "axis": "z"
+          },
+          "material": "steel_chrome"
+        }
+      ]
+    },
+    {
+      "name": "Booster_Raptor_17",
+      "parent": "SuperHeavy_Booster_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.2,
+        3.0
+      ],
+      "pos": [
+        1.205166278062295,
+        3.7091204135510987,
+        -36.5
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Booster_Plumbing_17",
+          "type": "tube",
+          "dims": [
+            0.011,
+            0.005,
+            0.5
+          ],
+          "pos": [
+            0,
+            0,
+            1.2
+          ],
+          "radial_array": {
+            "count": 700,
+            "radius": 0.4,
+            "axis": "z"
+          },
+          "material": "steel_chrome"
+        }
+      ]
+    },
+    {
+      "name": "Booster_Raptor_18",
+      "parent": "SuperHeavy_Booster_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.2,
+        3.0
+      ],
+      "pos": [
+        2.3880612583373386e-16,
+        3.9,
+        -36.5
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Booster_Plumbing_18",
+          "type": "tube",
+          "dims": [
+            0.011,
+            0.005,
+            0.5
+          ],
+          "pos": [
+            0,
+            0,
+            1.2
+          ],
+          "radial_array": {
+            "count": 700,
+            "radius": 0.4,
+            "axis": "z"
+          },
+          "material": "steel_chrome"
+        }
+      ]
+    },
+    {
+      "name": "Booster_Raptor_19",
+      "parent": "SuperHeavy_Booster_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.2,
+        3.0
+      ],
+      "pos": [
+        -1.2051662780622947,
+        3.709120413551099,
+        -36.5
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Booster_Plumbing_19",
+          "type": "tube",
+          "dims": [
+            0.011,
+            0.005,
+            0.5
+          ],
+          "pos": [
+            0,
+            0,
+            1.2
+          ],
+          "radial_array": {
+            "count": 700,
+            "radius": 0.4,
+            "axis": "z"
+          },
+          "material": "steel_chrome"
+        }
+      ]
+    },
+    {
+      "name": "Booster_Raptor_20",
+      "parent": "SuperHeavy_Booster_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.2,
+        3.0
+      ],
+      "pos": [
+        -2.2923624839406447,
+        3.155166278062295,
+        -36.5
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Booster_Plumbing_20",
+          "type": "tube",
+          "dims": [
+            0.011,
+            0.005,
+            0.5
+          ],
+          "pos": [
+            0,
+            0,
+            1.2
+          ],
+          "radial_array": {
+            "count": 700,
+            "radius": 0.4,
+            "axis": "z"
+          },
+          "material": "steel_chrome"
+        }
+      ]
+    },
+    {
+      "name": "Booster_Raptor_21",
+      "parent": "SuperHeavy_Booster_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.2,
+        3.0
+      ],
+      "pos": [
+        -3.1551662780622944,
+        2.2923624839406456,
+        -36.5
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Booster_Plumbing_21",
+          "type": "tube",
+          "dims": [
+            0.011,
+            0.005,
+            0.5
+          ],
+          "pos": [
+            0,
+            0,
+            1.2
+          ],
+          "radial_array": {
+            "count": 700,
+            "radius": 0.4,
+            "axis": "z"
+          },
+          "material": "steel_chrome"
+        }
+      ]
+    },
+    {
+      "name": "Booster_Raptor_22",
+      "parent": "SuperHeavy_Booster_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.2,
+        3.0
+      ],
+      "pos": [
+        -3.7091204135510987,
+        1.2051662780622951,
+        -36.5
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Booster_Plumbing_22",
+          "type": "tube",
+          "dims": [
+            0.011,
+            0.005,
+            0.5
+          ],
+          "pos": [
+            0,
+            0,
+            1.2
+          ],
+          "radial_array": {
+            "count": 700,
+            "radius": 0.4,
+            "axis": "z"
+          },
+          "material": "steel_chrome"
+        }
+      ]
+    },
+    {
+      "name": "Booster_Raptor_23",
+      "parent": "SuperHeavy_Booster_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.2,
+        3.0
+      ],
+      "pos": [
+        -3.9,
+        4.776122516674677e-16,
+        -36.5
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Booster_Plumbing_23",
+          "type": "tube",
+          "dims": [
+            0.011,
+            0.005,
+            0.5
+          ],
+          "pos": [
+            0,
+            0,
+            1.2
+          ],
+          "radial_array": {
+            "count": 700,
+            "radius": 0.4,
+            "axis": "z"
+          },
+          "material": "steel_chrome"
+        }
+      ]
+    },
+    {
+      "name": "Booster_Raptor_24",
+      "parent": "SuperHeavy_Booster_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.2,
+        3.0
+      ],
+      "pos": [
+        -3.709120413551099,
+        -1.2051662780622945,
+        -36.5
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Booster_Plumbing_24",
+          "type": "tube",
+          "dims": [
+            0.011,
+            0.005,
+            0.5
+          ],
+          "pos": [
+            0,
+            0,
+            1.2
+          ],
+          "radial_array": {
+            "count": 700,
+            "radius": 0.4,
+            "axis": "z"
+          },
+          "material": "steel_chrome"
+        }
+      ]
+    },
+    {
+      "name": "Booster_Raptor_25",
+      "parent": "SuperHeavy_Booster_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.2,
+        3.0
+      ],
+      "pos": [
+        -3.155166278062295,
+        -2.2923624839406447,
+        -36.5
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Booster_Plumbing_25",
+          "type": "tube",
+          "dims": [
+            0.011,
+            0.005,
+            0.5
+          ],
+          "pos": [
+            0,
+            0,
+            1.2
+          ],
+          "radial_array": {
+            "count": 700,
+            "radius": 0.4,
+            "axis": "z"
+          },
+          "material": "steel_chrome"
+        }
+      ]
+    },
+    {
+      "name": "Booster_Raptor_26",
+      "parent": "SuperHeavy_Booster_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.2,
+        3.0
+      ],
+      "pos": [
+        -2.2923624839406456,
+        -3.1551662780622944,
+        -36.5
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Booster_Plumbing_26",
+          "type": "tube",
+          "dims": [
+            0.011,
+            0.005,
+            0.5
+          ],
+          "pos": [
+            0,
+            0,
+            1.2
+          ],
+          "radial_array": {
+            "count": 700,
+            "radius": 0.4,
+            "axis": "z"
+          },
+          "material": "steel_chrome"
+        }
+      ]
+    },
+    {
+      "name": "Booster_Raptor_27",
+      "parent": "SuperHeavy_Booster_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.2,
+        3.0
+      ],
+      "pos": [
+        -1.2051662780622954,
+        -3.7091204135510987,
+        -36.5
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Booster_Plumbing_27",
+          "type": "tube",
+          "dims": [
+            0.011,
+            0.005,
+            0.5
+          ],
+          "pos": [
+            0,
+            0,
+            1.2
+          ],
+          "radial_array": {
+            "count": 700,
+            "radius": 0.4,
+            "axis": "z"
+          },
+          "material": "steel_chrome"
+        }
+      ]
+    },
+    {
+      "name": "Booster_Raptor_28",
+      "parent": "SuperHeavy_Booster_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.2,
+        3.0
+      ],
+      "pos": [
+        -7.164183775012015e-16,
+        -3.9,
+        -36.5
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Booster_Plumbing_28",
+          "type": "tube",
+          "dims": [
+            0.011,
+            0.005,
+            0.5
+          ],
+          "pos": [
+            0,
+            0,
+            1.2
+          ],
+          "radial_array": {
+            "count": 700,
+            "radius": 0.4,
+            "axis": "z"
+          },
+          "material": "steel_chrome"
+        }
+      ]
+    },
+    {
+      "name": "Booster_Raptor_29",
+      "parent": "SuperHeavy_Booster_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.2,
+        3.0
+      ],
+      "pos": [
+        1.2051662780622943,
+        -3.709120413551099,
+        -36.5
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Booster_Plumbing_29",
+          "type": "tube",
+          "dims": [
+            0.011,
+            0.005,
+            0.5
+          ],
+          "pos": [
+            0,
+            0,
+            1.2
+          ],
+          "radial_array": {
+            "count": 700,
+            "radius": 0.4,
+            "axis": "z"
+          },
+          "material": "steel_chrome"
+        }
+      ]
+    },
+    {
+      "name": "Booster_Raptor_30",
+      "parent": "SuperHeavy_Booster_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.2,
+        3.0
+      ],
+      "pos": [
+        2.2923624839406442,
+        -3.1551662780622953,
+        -36.5
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Booster_Plumbing_30",
+          "type": "tube",
+          "dims": [
+            0.011,
+            0.005,
+            0.5
+          ],
+          "pos": [
+            0,
+            0,
+            1.2
+          ],
+          "radial_array": {
+            "count": 700,
+            "radius": 0.4,
+            "axis": "z"
+          },
+          "material": "steel_chrome"
+        }
+      ]
+    },
+    {
+      "name": "Booster_Raptor_31",
+      "parent": "SuperHeavy_Booster_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.2,
+        3.0
+      ],
+      "pos": [
+        3.1551662780622944,
+        -2.292362483940646,
+        -36.5
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Booster_Plumbing_31",
+          "type": "tube",
+          "dims": [
+            0.011,
+            0.005,
+            0.5
+          ],
+          "pos": [
+            0,
+            0,
+            1.2
+          ],
+          "radial_array": {
+            "count": 700,
+            "radius": 0.4,
+            "axis": "z"
+          },
+          "material": "steel_chrome"
+        }
+      ]
+    },
+    {
+      "name": "Booster_Raptor_32",
+      "parent": "SuperHeavy_Booster_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.2,
+        3.0
+      ],
+      "pos": [
+        3.7091204135510987,
+        -1.2051662780622958,
+        -36.5
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Booster_Plumbing_32",
+          "type": "tube",
+          "dims": [
+            0.011,
+            0.005,
+            0.5
+          ],
+          "pos": [
+            0,
+            0,
+            1.2
+          ],
+          "radial_array": {
+            "count": 700,
+            "radius": 0.4,
+            "axis": "z"
+          },
+          "material": "steel_chrome"
+        }
+      ]
+    },
+    {
+      "name": "Starship_Hull",
+      "parent": "SuperHeavy_Booster_Hull",
+      "type": "tube",
+      "dims": [
+        4.5,
+        4.45,
+        50.0
+      ],
+      "pos": [
+        0,
+        0,
+        60.5
+      ],
+      "material": "stainless_steel_304"
+    },
+    {
+      "name": "Starship_Engine_0",
+      "parent": "Starship_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.8,
+        3.0
+      ],
+      "pos": [
+        1.6,
+        0.0,
+        -26.5
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Ship_Plumbing_0",
+          "type": "tube",
+          "dims": [
+            0.012,
+            0.008,
+            0.5
+          ],
+          "pos": [
+            0,
+            0,
+            1.2
+          ],
+          "radial_array": {
+            "count": 800,
+            "radius": 0.6,
+            "axis": "z"
+          },
+          "material": "steel_chrome"
+        }
+      ]
+    },
+    {
+      "name": "Starship_Engine_1",
+      "parent": "Starship_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.8,
+        3.0
+      ],
+      "pos": [
+        0.8000000000000003,
+        1.3856406460551018,
+        -26.5
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Ship_Plumbing_1",
+          "type": "tube",
+          "dims": [
+            0.012,
+            0.008,
+            0.5
+          ],
+          "pos": [
+            0,
+            0,
+            1.2
+          ],
+          "radial_array": {
+            "count": 800,
+            "radius": 0.6,
+            "axis": "z"
+          },
+          "material": "steel_chrome"
+        }
+      ]
+    },
+    {
+      "name": "Starship_Engine_2",
+      "parent": "Starship_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.8,
+        3.0
+      ],
+      "pos": [
+        -0.7999999999999997,
+        1.385640646055102,
+        -26.5
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Ship_Plumbing_2",
+          "type": "tube",
+          "dims": [
+            0.012,
+            0.008,
+            0.5
+          ],
+          "pos": [
+            0,
+            0,
+            1.2
+          ],
+          "radial_array": {
+            "count": 800,
+            "radius": 0.6,
+            "axis": "z"
+          },
+          "material": "steel_chrome"
+        }
+      ]
+    },
+    {
+      "name": "Starship_Engine_3",
+      "parent": "Starship_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.1,
+        3.0
+      ],
+      "pos": [
+        -3.3,
+        4.0413344371862655e-16,
+        -26.5
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Ship_Plumbing_3",
+          "type": "tube",
+          "dims": [
+            0.012,
+            0.008,
+            0.5
+          ],
+          "pos": [
+            0,
+            0,
+            1.2
+          ],
+          "radial_array": {
+            "count": 800,
+            "radius": 0.6,
+            "axis": "z"
+          },
+          "material": "steel_chrome"
+        }
+      ]
+    },
+    {
+      "name": "Starship_Engine_4",
+      "parent": "Starship_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.1,
+        3.0
+      ],
+      "pos": [
+        -1.6500000000000015,
+        -2.8578838324886466,
+        -26.5
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Ship_Plumbing_4",
+          "type": "tube",
+          "dims": [
+            0.012,
+            0.008,
+            0.5
+          ],
+          "pos": [
+            0,
+            0,
+            1.2
+          ],
+          "radial_array": {
+            "count": 800,
+            "radius": 0.6,
+            "axis": "z"
+          },
+          "material": "steel_chrome"
+        }
+      ]
+    },
+    {
+      "name": "Starship_Engine_5",
+      "parent": "Starship_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.1,
+        3.0
+      ],
+      "pos": [
+        1.6500000000000004,
+        -2.857883832488647,
+        -26.5
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "sub_parts": [
+        {
+          "name": "Ship_Plumbing_5",
+          "type": "tube",
+          "dims": [
+            0.012,
+            0.008,
+            0.5
+          ],
+          "pos": [
+            0,
+            0,
+            1.2
+          ],
+          "radial_array": {
+            "count": 800,
+            "radius": 0.6,
+            "axis": "z"
+          },
+          "material": "steel_chrome"
+        }
+      ]
+    },
+    {
+      "name": "Fwd_Flap_Left",
+      "parent": "Starship_Nose",
+      "type": "box",
+      "dims": [
+        1.2,
+        4.0,
+        0.2
+      ],
+      "pos": [
+        -4.5,
+        0,
+        -4.0
+      ],
+      "rot": [
+        0,
+        0,
+        -30
+      ],
+      "material": "steel_dark"
+    },
+    {
+      "name": "Aft_Flap_Left",
+      "parent": "Starship_Hull",
+      "type": "box",
+      "dims": [
+        2.5,
+        6.0,
+        0.4
+      ],
+      "pos": [
+        -4.5,
+        0,
+        -21.0
+      ],
+      "rot": [
+        0,
+        0,
+        -20
+      ],
+      "material": "steel_dark"
+    },
+    {
+      "name": "Fwd_Flap_Right",
+      "parent": "Starship_Nose",
+      "type": "box",
+      "dims": [
+        1.2,
+        4.0,
+        0.2
+      ],
+      "pos": [
+        4.5,
+        0,
+        -4.0
+      ],
+      "rot": [
+        0,
+        0,
+        30
+      ],
+      "material": "steel_dark"
+    },
+    {
+      "name": "Aft_Flap_Right",
+      "parent": "Starship_Hull",
+      "type": "box",
+      "dims": [
+        2.5,
+        6.0,
+        0.4
+      ],
+      "pos": [
+        4.5,
+        0,
+        -21.0
+      ],
+      "rot": [
+        0,
+        0,
+        20
+      ],
+      "material": "steel_dark"
+    },
+    {
+      "name": "Starship_Nose",
+      "parent": "Starship_Hull",
+      "type": "cone",
+      "dims": [
+        4.5,
+        15.0
+      ],
+      "pos": [
+        0,
+        0,
+        32.5
+      ],
+      "material": "stainless_steel_304"
+    },
+    {
+      "name": "Thermal_Shield_Sides",
+      "parent": "Starship_Hull",
+      "type": "panel",
+      "dims": [
+        0.15,
+        0.15,
+        0.02
+      ],
+      "pos": [
+        0,
+        0,
+        -25.0
+      ],
+      "radial_array": {
+        "count": 160,
+        "radius": 4.52,
+        "axis": "z"
+      },
+      "linear_array": {
+        "count": 250,
+        "step": [
+          0,
+          0,
+          0.2
+        ]
+      },
+      "material": "matte_black"
+    },
+    {
+      "name": "Thermal_Shield_Base",
+      "parent": "Starship_Hull",
+      "type": "panel",
+      "dims": [
+        0.15,
+        0.15,
+        0.02
+      ],
+      "pos": [
+        -4.5,
+        -4.5,
+        -25.01
+      ],
+      "grid_array": {
+        "count_x": 45,
+        "count_y": 45,
+        "step_x": [
+          0.2,
+          0,
+          0
+        ],
+        "step_y": [
+          0,
+          0.2,
+          0
+        ]
+      },
+      "material": "matte_black"
+    }
+  ]
+}

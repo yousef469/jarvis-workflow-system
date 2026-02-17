@@ -1,0 +1,263 @@
+{
+  "project": "Starship_Master_Edition_85k",
+  "is_direct_blueprint": true,
+  "parts": [
+    {
+      "name": "Starship_Hull",
+      "type": "tube",
+      "dims": [
+        4.5,
+        4.45,
+        52.0
+      ],
+      "pos": [
+        0,
+        26.0,
+        0
+      ],
+      "material": "stainless_steel",
+      "subsystem": "structures"
+    },
+    {
+      "name": "Starship_Nose",
+      "parent": "Starship_Hull",
+      "type": "cone",
+      "dims": [
+        4.5,
+        18.0
+      ],
+      "material": "stainless_steel",
+      "subsystem": "structures",
+      "pos": [
+        0,
+        35.0,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Cabin_Windows",
+      "parent": "Starship_Nose",
+      "type": "bolt",
+      "dims": [
+        0.4,
+        0.05
+      ],
+      "material": "nasa_glass",
+      "subsystem": "structures",
+      "radial_array": {
+        "count": 12,
+        "radius": 3.8,
+        "axis": "y"
+      },
+      "pos": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Fwd_Flap_Left",
+      "parent": "Starship_Nose",
+      "type": "box",
+      "dims": [
+        1.5,
+        5.0,
+        0.3
+      ],
+      "material": "stainless_steel",
+      "subsystem": "structures",
+      "pos": [
+        -4.5,
+        -6.0,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        45
+      ]
+    },
+    {
+      "name": "Fwd_Flap_Right",
+      "parent": "Starship_Nose",
+      "type": "box",
+      "dims": [
+        1.5,
+        5.0,
+        0.3
+      ],
+      "material": "stainless_steel",
+      "subsystem": "structures",
+      "pos": [
+        4.5,
+        -6.0,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        -45
+      ]
+    },
+    {
+      "name": "Aft_Flap_Left",
+      "parent": "Starship_Hull",
+      "type": "box",
+      "dims": [
+        3.0,
+        8.0,
+        0.5
+      ],
+      "material": "stainless_steel",
+      "subsystem": "structures",
+      "pos": [
+        -4.6,
+        -18.0,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        15
+      ]
+    },
+    {
+      "name": "Aft_Flap_Right",
+      "parent": "Starship_Hull",
+      "type": "box",
+      "dims": [
+        3.0,
+        8.0,
+        0.5
+      ],
+      "material": "stainless_steel",
+      "subsystem": "structures",
+      "pos": [
+        4.6,
+        -18.0,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        -15
+      ]
+    },
+    {
+      "name": "TPS_Hex_Tiles",
+      "parent": "Starship_Hull",
+      "type": "hex_tile",
+      "dims": [
+        0.15,
+        0.05
+      ],
+      "material": "heat_shield_phenolic",
+      "subsystem": "thermal",
+      "placement": {
+        "method": "surface_hex",
+        "surface": "Starship_Hull",
+        "coverage": "windward",
+        "normal_offset": 0.012
+      },
+      "instance_count": 18000
+    },
+    {
+      "name": "Cabin_Deck",
+      "parent": "Starship_Nose",
+      "type": "cylinder",
+      "dims": [
+        4.0,
+        0.1
+      ],
+      "material": "aluminum_6061",
+      "subsystem": "structures",
+      "pos": [
+        0,
+        -4.0,
+        0
+      ]
+    },
+    {
+      "name": "Crew_Seat",
+      "parent": "Cabin_Deck",
+      "type": "box",
+      "dims": [
+        0.6,
+        0.8,
+        0.1
+      ],
+      "material": "aluminum_6061",
+      "subsystem": "structures",
+      "radial_array": {
+        "count": 20,
+        "radius": 3.0,
+        "axis": "y"
+      },
+      "pos": [
+        0,
+        0.4,
+        0
+      ]
+    },
+    {
+      "name": "Raptor_3_Cluster",
+      "parent": "Starship_Hull",
+      "type": "nozzle",
+      "dims": [
+        1.3,
+        3.1
+      ],
+      "material": "steel_dark",
+      "subsystem": "propulsion",
+      "radial_array": {
+        "count": 33,
+        "radius": 4.1,
+        "axis": "y"
+      },
+      "pos": [
+        0,
+        -27.05,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        180
+      ]
+    },
+    {
+      "name": "Internal_Stringer",
+      "parent": "Starship_Hull",
+      "type": "box",
+      "dims": [
+        0.02,
+        1.0,
+        0.02
+      ],
+      "material": "aluminum_6061",
+      "subsystem": "structures",
+      "linear_array": {
+        "count": 60,
+        "step": [
+          0,
+          0.8,
+          0
+        ]
+      },
+      "radial_array": {
+        "count": 1000,
+        "radius": 4.45
+      },
+      "pos": [
+        0,
+        -25.0,
+        0
+      ]
+    }
+  ]
+}

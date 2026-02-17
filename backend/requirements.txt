@@ -1,0 +1,57 @@
+# Jarvis Backend Requirements
+
+# Web Server
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+websockets>=12.0
+python-multipart>=0.0.6
+
+# Speech Recognition
+vosk>=0.3.45
+sounddevice>=0.4.6
+numpy>=1.24.0
+pyaudio>=0.2.14
+
+# Wake Word Detection
+openwakeword>=0.6.0
+onnxruntime>=1.16.3
+
+# AI Brain (100% Local)
+# (Cloud APIs Removed)
+
+# Automation
+pyautogui>=0.9.54
+pygetwindow>=0.0.9
+pynput>=1.7.6
+
+# System
+psutil>=5.9.8
+python-dotenv>=1.0.1
+httpx>=0.26.0
+
+# TTS - JARVIS Voice
+pyttsx3>=2.90
+TTS>=0.22.0              # Coqui TTS - High-quality offline voice
+sounddevice>=0.4.6       # Audio playback
+scipy>=1.11.0            # Audio processing (pitch, reverb)
+
+# Memory
+chromadb>=0.4.0
+sentence-transformers>=2.2.0
+
+# Speech Recognition (Faster Whisper Optimization)
+faster-whisper>=1.0.0
+
+# 3D Modeling (100% Local)
+trimesh>=4.0.0
+trimesh[easy]>=4.0.0
+scipy>=1.11.0
+numpy>=1.24.0
+# Computer Vision & Hand Tracking
+mediapipe>=0.10.9
+opencv-python>=4.9.0
+
+# Image Generation
+diffusers>=0.26.0
+transformers>=4.38.0
+accelerate>=0.27.0

@@ -1,0 +1,99 @@
+/* ============================================================================
+   JARVIS SIDEBAR
+   ============================================================================ */
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 56px;
+    background: var(--sidebar-bg);
+    border-right: 1px solid var(--sidebar-border);
+    flex-shrink: 0;
+    z-index: 50;
+    transition: width 0.2s ease;
+}
+
+.sidebar-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px 0;
+    gap: 2px;
+    flex: 1;
+}
+
+.sidebar-btn {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: var(--sidebar-icon);
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.sidebar-btn:hover {
+    color: var(--text-primary);
+    background: var(--bg-hover);
+}
+
+.sidebar-btn.active {
+    color: var(--sidebar-icon-active);
+    background: var(--accent-glow);
+}
+
+.sidebar-btn.active::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 3px;
+    height: 24px;
+    background: var(--sidebar-indicator);
+    border-radius: 0 3px 3px 0;
+    box-shadow: 0 0 8px var(--sidebar-indicator);
+}
+
+.sidebar-btn .tooltip {
+    position: absolute;
+    left: 60px;
+    background: var(--bg-surface-3);
+    color: var(--text-primary);
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 500;
+    white-space: nowrap;
+    pointer-events: none;
+    opacity: 0;
+    transform: translateX(-4px);
+    transition: all 0.15s ease;
+    box-shadow: var(--shadow-md);
+    z-index: 1000;
+}
+
+.sidebar-btn:hover .tooltip {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.sidebar-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px 0;
+    gap: 2px;
+    border-top: 1px solid var(--border-subtle);
+}
+
+.sidebar-divider {
+    width: 24px;
+    height: 1px;
+    background: var(--border-subtle);
+    margin: 6px 0;
+}

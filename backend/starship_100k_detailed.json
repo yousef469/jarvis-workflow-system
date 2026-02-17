@@ -1,0 +1,5374 @@
+{
+  "project": "SPACEX STARSHIP - 100,000 PART MILESTONE",
+  "is_direct_blueprint": true,
+  "parts": [
+    {
+      "name": "Starship_Main_Hull",
+      "type": "tube",
+      "dims": [
+        4.5,
+        4.45,
+        50.0
+      ],
+      "pos": [
+        0,
+        0,
+        25.0
+      ],
+      "material": "stainless_steel_304",
+      "sub_parts": [
+        {
+          "name": "Thermal_Tile_Row_0",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -23.0
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_1",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -22.8
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_2",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -22.6
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_3",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -22.4
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_4",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -22.2
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_5",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -22.0
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_6",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -21.8
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_7",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -21.6
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_8",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -21.4
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_9",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -21.2
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_10",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -21.0
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_11",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -20.8
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_12",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -20.6
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_13",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -20.4
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_14",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -20.2
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_15",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -20.0
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_16",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -19.8
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_17",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -19.6
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_18",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -19.4
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_19",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -19.2
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_20",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -19.0
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_21",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -18.8
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_22",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -18.6
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_23",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -18.4
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_24",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -18.2
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_25",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -18.0
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_26",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -17.8
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_27",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -17.6
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_28",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -17.4
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_29",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -17.2
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_30",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -17.0
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_31",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -16.8
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_32",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -16.6
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_33",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -16.4
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_34",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -16.2
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_35",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -16.0
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_36",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -15.8
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_37",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -15.6
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_38",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -15.399999999999999
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_39",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -15.2
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_40",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -15.0
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_41",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -14.799999999999999
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_42",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -14.6
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_43",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -14.4
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_44",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -14.2
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_45",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -14.0
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_46",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -13.799999999999999
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_47",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -13.6
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_48",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -13.399999999999999
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_49",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -13.2
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_50",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -13.0
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_51",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -12.799999999999999
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_52",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -12.6
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_53",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -12.399999999999999
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_54",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -12.2
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_55",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -12.0
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_56",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -11.799999999999999
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_57",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -11.6
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_58",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -11.399999999999999
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_59",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -11.2
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_60",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -11.0
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_61",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -10.799999999999999
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_62",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -10.6
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_63",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -10.399999999999999
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_64",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -10.2
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_65",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -10.0
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_66",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -9.799999999999999
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_67",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -9.6
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_68",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -9.399999999999999
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_69",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -9.2
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_70",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -9.0
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_71",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -8.799999999999997
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_72",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -8.600000000000001
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_73",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -8.399999999999999
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_74",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -8.2
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_75",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -8.0
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_76",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -7.799999999999997
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_77",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -7.600000000000001
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_78",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -7.399999999999999
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_79",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -7.199999999999999
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_80",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -7.0
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_81",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -6.800000000000001
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_82",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -6.599999999999998
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_83",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -6.399999999999999
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_84",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -6.199999999999999
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_85",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -6.0
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_86",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -5.800000000000001
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_87",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -5.599999999999998
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_88",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -5.399999999999999
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_89",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -5.199999999999999
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_90",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -5.0
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_91",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -4.800000000000001
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_92",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -4.599999999999998
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_93",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -4.399999999999999
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_94",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -4.199999999999999
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_95",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -4.0
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_96",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -3.799999999999997
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_97",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -3.599999999999998
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_98",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -3.3999999999999986
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_99",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -3.1999999999999993
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_100",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -3.0
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_101",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -2.799999999999997
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_102",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -2.599999999999998
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_103",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -2.3999999999999986
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_104",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -2.1999999999999993
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_105",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -2.0
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_106",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -1.7999999999999972
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_107",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -1.5999999999999979
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_108",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -1.3999999999999986
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_109",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -1.1999999999999993
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_110",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -1.0
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_111",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -0.7999999999999972
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_112",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -0.5999999999999979
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_113",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -0.3999999999999986
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_114",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            -0.1999999999999993
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_115",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            0.0
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_116",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            0.20000000000000284
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_117",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            0.40000000000000213
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_118",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            0.6000000000000014
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_119",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            0.8000000000000007
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_120",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            1.0
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_121",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            1.2000000000000028
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_122",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            1.4000000000000021
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_123",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            1.6000000000000014
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_124",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            1.8000000000000007
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_125",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            2.0
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_126",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            2.200000000000003
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_127",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            2.400000000000002
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_128",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            2.6000000000000014
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_129",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            2.8000000000000007
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_130",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            3.0
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_131",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            3.200000000000003
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_132",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            3.400000000000002
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_133",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            3.6000000000000014
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_134",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            3.8000000000000007
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_135",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            4.0
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_136",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            4.200000000000003
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_137",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            4.400000000000002
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_138",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            4.600000000000001
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_139",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            4.800000000000001
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_140",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            5.0
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_141",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            5.200000000000003
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_142",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            5.400000000000002
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_143",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            5.600000000000001
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_144",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            5.800000000000001
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_145",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            6.0
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_146",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            6.200000000000003
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_147",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            6.400000000000002
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_148",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            6.600000000000001
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_149",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            6.800000000000001
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_150",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            7.0
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_151",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            7.200000000000003
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_152",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            7.400000000000006
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_153",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            7.600000000000001
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_154",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            7.799999999999997
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_155",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            8.0
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_156",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            8.200000000000003
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_157",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            8.400000000000006
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_158",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            8.600000000000001
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_159",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            8.799999999999997
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_160",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            9.0
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_161",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            9.200000000000003
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_162",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            9.399999999999999
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_163",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            9.600000000000001
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_164",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            9.800000000000004
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_165",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            10.0
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_166",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            10.200000000000003
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_167",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            10.399999999999999
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_168",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            10.600000000000001
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_169",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            10.800000000000004
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_170",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            11.0
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_171",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            11.200000000000003
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_172",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            11.399999999999999
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_173",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            11.600000000000001
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_174",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            11.800000000000004
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_175",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            12.0
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_176",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            12.200000000000003
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_177",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            12.399999999999999
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_178",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            12.600000000000001
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_179",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            12.800000000000004
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_180",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            13.0
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_181",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            13.200000000000003
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_182",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            13.399999999999999
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_183",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            13.600000000000001
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_184",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            13.800000000000004
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_185",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            14.0
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_186",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            14.200000000000003
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_187",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            14.399999999999999
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_188",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            14.600000000000001
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_189",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            14.800000000000004
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_190",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            15.0
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_191",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            15.200000000000003
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_192",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            15.400000000000006
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_193",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            15.600000000000001
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_194",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            15.800000000000004
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_195",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            16.0
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_196",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            16.200000000000003
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_197",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            16.400000000000006
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_198",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            16.6
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Thermal_Tile_Row_199",
+          "type": "panel",
+          "dims": [
+            0.15,
+            0.15,
+            0.02
+          ],
+          "pos": [
+            0,
+            0,
+            16.800000000000004
+          ],
+          "radial_array": {
+            "count": 150,
+            "radius": 4.52,
+            "axis": "z"
+          },
+          "material": "matte_black"
+        },
+        {
+          "name": "Internal_Structural_Stiffener_0",
+          "type": "panel",
+          "dims": [
+            0.1,
+            0.05,
+            45.0
+          ],
+          "pos": [
+            4.3,
+            0.0,
+            0
+          ],
+          "rot": [
+            0,
+            0,
+            0
+          ],
+          "sub_parts": [
+            {
+              "name": "Fastener_Grid_0",
+              "type": "bolt",
+              "dims": [
+                0.01,
+                0.03
+              ],
+              "pos": [
+                0,
+                0,
+                0
+              ],
+              "grid_array": {
+                "count_x": 10,
+                "count_y": 1000,
+                "step_x": [
+                  0.02,
+                  0,
+                  0
+                ],
+                "step_y": [
+                  0,
+                  0,
+                  0.04
+                ]
+              },
+              "material": "steel_chrome"
+            }
+          ]
+        },
+        {
+          "name": "Internal_Structural_Stiffener_1",
+          "type": "panel",
+          "dims": [
+            0.1,
+            0.05,
+            45.0
+          ],
+          "pos": [
+            4.3,
+            0.0,
+            0
+          ],
+          "rot": [
+            0,
+            0,
+            90
+          ],
+          "sub_parts": [
+            {
+              "name": "Fastener_Grid_1",
+              "type": "bolt",
+              "dims": [
+                0.01,
+                0.03
+              ],
+              "pos": [
+                0,
+                0,
+                0
+              ],
+              "grid_array": {
+                "count_x": 10,
+                "count_y": 1000,
+                "step_x": [
+                  0.02,
+                  0,
+                  0
+                ],
+                "step_y": [
+                  0,
+                  0,
+                  0.04
+                ]
+              },
+              "material": "steel_chrome"
+            }
+          ]
+        },
+        {
+          "name": "Internal_Structural_Stiffener_2",
+          "type": "panel",
+          "dims": [
+            0.1,
+            0.05,
+            45.0
+          ],
+          "pos": [
+            0.0,
+            4.3,
+            0
+          ],
+          "rot": [
+            0,
+            0,
+            180
+          ],
+          "sub_parts": [
+            {
+              "name": "Fastener_Grid_2",
+              "type": "bolt",
+              "dims": [
+                0.01,
+                0.03
+              ],
+              "pos": [
+                0,
+                0,
+                0
+              ],
+              "grid_array": {
+                "count_x": 10,
+                "count_y": 1000,
+                "step_x": [
+                  0.02,
+                  0,
+                  0
+                ],
+                "step_y": [
+                  0,
+                  0,
+                  0.04
+                ]
+              },
+              "material": "steel_chrome"
+            }
+          ]
+        },
+        {
+          "name": "Internal_Structural_Stiffener_3",
+          "type": "panel",
+          "dims": [
+            0.1,
+            0.05,
+            45.0
+          ],
+          "pos": [
+            0.0,
+            4.3,
+            0
+          ],
+          "rot": [
+            0,
+            0,
+            270
+          ],
+          "sub_parts": [
+            {
+              "name": "Fastener_Grid_3",
+              "type": "bolt",
+              "dims": [
+                0.01,
+                0.03
+              ],
+              "pos": [
+                0,
+                0,
+                0
+              ],
+              "grid_array": {
+                "count_x": 10,
+                "count_y": 1000,
+                "step_x": [
+                  0.02,
+                  0,
+                  0
+                ],
+                "step_y": [
+                  0,
+                  0,
+                  0.04
+                ]
+              },
+              "material": "steel_chrome"
+            }
+          ]
+        },
+        {
+          "name": "Raptor_Engine_0",
+          "type": "nozzle",
+          "dims": [
+            0.6,
+            2.5
+          ],
+          "pos": [
+            1.5,
+            0.0,
+            -1.5
+          ],
+          "sub_parts": [
+            {
+              "name": "Engine_Plumbing_Detail_0",
+              "type": "tube",
+              "dims": [
+                0.02,
+                0.015,
+                0.5
+              ],
+              "pos": [
+                0,
+                0,
+                0
+              ],
+              "radial_array": {
+                "count": 1000,
+                "radius": 0.5,
+                "axis": "z"
+              },
+              "material": "steel_chrome"
+            }
+          ]
+        },
+        {
+          "name": "Raptor_Engine_1",
+          "type": "nozzle",
+          "dims": [
+            0.6,
+            2.5
+          ],
+          "pos": [
+            1.4728930458940601,
+            0.2838768665406153,
+            -1.5
+          ],
+          "sub_parts": [
+            {
+              "name": "Engine_Plumbing_Detail_1",
+              "type": "tube",
+              "dims": [
+                0.02,
+                0.015,
+                0.5
+              ],
+              "pos": [
+                0,
+                0,
+                0
+              ],
+              "radial_array": {
+                "count": 1000,
+                "radius": 0.5,
+                "axis": "z"
+              },
+              "material": "steel_chrome"
+            }
+          ]
+        },
+        {
+          "name": "Raptor_Engine_2",
+          "type": "nozzle",
+          "dims": [
+            0.6,
+            2.5
+          ],
+          "pos": [
+            1.392551899524109,
+            0.5574936834904913,
+            -1.5
+          ],
+          "sub_parts": [
+            {
+              "name": "Engine_Plumbing_Detail_2",
+              "type": "tube",
+              "dims": [
+                0.02,
+                0.015,
+                0.5
+              ],
+              "pos": [
+                0,
+                0,
+                0
+              ],
+              "radial_array": {
+                "count": 1000,
+                "radius": 0.5,
+                "axis": "z"
+              },
+              "material": "steel_chrome"
+            }
+          ]
+        },
+        {
+          "name": "Raptor_Engine_3",
+          "type": "nozzle",
+          "dims": [
+            1.2,
+            2.5
+          ],
+          "pos": [
+            2.9443873649091343,
+            1.8922428610945914,
+            -1.5
+          ],
+          "sub_parts": [
+            {
+              "name": "Engine_Plumbing_Detail_3",
+              "type": "tube",
+              "dims": [
+                0.02,
+                0.015,
+                0.5
+              ],
+              "pos": [
+                0,
+                0,
+                0
+              ],
+              "radial_array": {
+                "count": 1000,
+                "radius": 0.5,
+                "axis": "z"
+              },
+              "material": "steel_chrome"
+            }
+          ]
+        },
+        {
+          "name": "Raptor_Engine_4",
+          "type": "nozzle",
+          "dims": [
+            1.2,
+            2.5
+          ],
+          "pos": [
+            2.5330691333677455,
+            2.4152765401873917,
+            -1.5
+          ],
+          "sub_parts": [
+            {
+              "name": "Engine_Plumbing_Detail_4",
+              "type": "tube",
+              "dims": [
+                0.02,
+                0.015,
+                0.5
+              ],
+              "pos": [
+                0,
+                0,
+                0
+              ],
+              "radial_array": {
+                "count": 1000,
+                "radius": 0.5,
+                "axis": "z"
+              },
+              "material": "steel_chrome"
+            }
+          ]
+        },
+        {
+          "name": "Raptor_Engine_5",
+          "type": "nozzle",
+          "dims": [
+            1.2,
+            2.5
+          ],
+          "pos": [
+            2.030199183499194,
+            2.8510158321761745,
+            -1.5
+          ],
+          "sub_parts": [
+            {
+              "name": "Engine_Plumbing_Detail_5",
+              "type": "tube",
+              "dims": [
+                0.02,
+                0.015,
+                0.5
+              ],
+              "pos": [
+                0,
+                0,
+                0
+              ],
+              "radial_array": {
+                "count": 1000,
+                "radius": 0.5,
+                "axis": "z"
+              },
+              "material": "steel_chrome"
+            }
+          ]
+        },
+        {
+          "name": "Raptor_Engine_6",
+          "type": "nozzle",
+          "dims": [
+            1.2,
+            2.5
+          ],
+          "pos": [
+            1.4539525455066025,
+            3.1837119837408143,
+            -1.5
+          ],
+          "sub_parts": [
+            {
+              "name": "Engine_Plumbing_Detail_6",
+              "type": "tube",
+              "dims": [
+                0.02,
+                0.015,
+                0.5
+              ],
+              "pos": [
+                0,
+                0,
+                0
+              ],
+              "radial_array": {
+                "count": 1000,
+                "radius": 0.5,
+                "axis": "z"
+              },
+              "material": "steel_chrome"
+            }
+          ]
+        },
+        {
+          "name": "Raptor_Engine_7",
+          "type": "nozzle",
+          "dims": [
+            1.2,
+            2.5
+          ],
+          "pos": [
+            0.8251562742829954,
+            3.4013404891323957,
+            -1.5
+          ],
+          "sub_parts": [
+            {
+              "name": "Engine_Plumbing_Detail_7",
+              "type": "tube",
+              "dims": [
+                0.02,
+                0.015,
+                0.5
+              ],
+              "pos": [
+                0,
+                0,
+                0
+              ],
+              "radial_array": {
+                "count": 1000,
+                "radius": 0.5,
+                "axis": "z"
+              },
+              "material": "steel_chrome"
+            }
+          ]
+        },
+        {
+          "name": "Raptor_Engine_8",
+          "type": "nozzle",
+          "dims": [
+            1.2,
+            2.5
+          ],
+          "pos": [
+            0.16653670538309842,
+            3.496035687140528,
+            -1.5
+          ],
+          "sub_parts": [
+            {
+              "name": "Engine_Plumbing_Detail_8",
+              "type": "tube",
+              "dims": [
+                0.02,
+                0.015,
+                0.5
+              ],
+              "pos": [
+                0,
+                0,
+                0
+              ],
+              "radial_array": {
+                "count": 1000,
+                "radius": 0.5,
+                "axis": "z"
+              },
+              "material": "steel_chrome"
+            }
+          ]
+        },
+        {
+          "name": "Raptor_Engine_9",
+          "type": "nozzle",
+          "dims": [
+            1.2,
+            2.5
+          ],
+          "pos": [
+            -0.4981019339564975,
+            3.464375046583265,
+            -1.5
+          ],
+          "sub_parts": [
+            {
+              "name": "Engine_Plumbing_Detail_9",
+              "type": "tube",
+              "dims": [
+                0.02,
+                0.015,
+                0.5
+              ],
+              "pos": [
+                0,
+                0,
+                0
+              ],
+              "radial_array": {
+                "count": 1000,
+                "radius": 0.5,
+                "axis": "z"
+              },
+              "material": "steel_chrome"
+            }
+          ]
+        },
+        {
+          "name": "Raptor_Engine_10",
+          "type": "nozzle",
+          "dims": [
+            1.2,
+            2.5
+          ],
+          "pos": [
+            -1.144737871610975,
+            3.30750286550134,
+            -1.5
+          ],
+          "sub_parts": [
+            {
+              "name": "Engine_Plumbing_Detail_10",
+              "type": "tube",
+              "dims": [
+                0.02,
+                0.015,
+                0.5
+              ],
+              "pos": [
+                0,
+                0,
+                0
+              ],
+              "radial_array": {
+                "count": 1000,
+                "radius": 0.5,
+                "axis": "z"
+              },
+              "material": "steel_chrome"
+            }
+          ]
+        },
+        {
+          "name": "Raptor_Engine_11",
+          "type": "nozzle",
+          "dims": [
+            1.2,
+            2.5
+          ],
+          "pos": [
+            -1.7499999999999991,
+            3.0310889132455356,
+            -1.5
+          ],
+          "sub_parts": [
+            {
+              "name": "Engine_Plumbing_Detail_11",
+              "type": "tube",
+              "dims": [
+                0.02,
+                0.015,
+                0.5
+              ],
+              "pos": [
+                0,
+                0,
+                0
+              ],
+              "radial_array": {
+                "count": 1000,
+                "radius": 0.5,
+                "axis": "z"
+              },
+              "material": "steel_chrome"
+            }
+          ]
+        },
+        {
+          "name": "Raptor_Engine_12",
+          "type": "nozzle",
+          "dims": [
+            1.2,
+            2.5
+          ],
+          "pos": [
+            -2.2920125688084974,
+            2.645123510239904,
+            -1.5
+          ],
+          "sub_parts": [
+            {
+              "name": "Engine_Plumbing_Detail_12",
+              "type": "tube",
+              "dims": [
+                0.02,
+                0.015,
+                0.5
+              ],
+              "pos": [
+                0,
+                0,
+                0
+              ],
+              "radial_array": {
+                "count": 1000,
+                "radius": 0.5,
+                "axis": "z"
+              },
+              "material": "steel_chrome"
+            }
+          ]
+        },
+        {
+          "name": "Raptor_Engine_13",
+          "type": "nozzle",
+          "dims": [
+            1.2,
+            2.5
+          ],
+          "pos": [
+            -2.7511858315997557,
+            2.163556451772119,
+            -1.5
+          ],
+          "sub_parts": [
+            {
+              "name": "Engine_Plumbing_Detail_13",
+              "type": "tube",
+              "dims": [
+                0.02,
+                0.015,
+                0.5
+              ],
+              "pos": [
+                0,
+                0,
+                0
+              ],
+              "radial_array": {
+                "count": 1000,
+                "radius": 0.5,
+                "axis": "z"
+              },
+              "material": "steel_chrome"
+            }
+          ]
+        },
+        {
+          "name": "Raptor_Engine_14",
+          "type": "nozzle",
+          "dims": [
+            1.2,
+            2.5
+          ],
+          "pos": [
+            -3.110924070292232,
+            1.6037928260459369,
+            -1.5
+          ],
+          "sub_parts": [
+            {
+              "name": "Engine_Plumbing_Detail_14",
+              "type": "tube",
+              "dims": [
+                0.02,
+                0.015,
+                0.5
+              ],
+              "pos": [
+                0,
+                0,
+                0
+              ],
+              "radial_array": {
+                "count": 1000,
+                "radius": 0.5,
+                "axis": "z"
+              },
+              "material": "steel_chrome"
+            }
+          ]
+        },
+        {
+          "name": "Raptor_Engine_15",
+          "type": "nozzle",
+          "dims": [
+            1.2,
+            2.5
+          ],
+          "pos": [
+            -3.3582254076507403,
+            0.9860639489450052,
+            -1.5
+          ],
+          "sub_parts": [
+            {
+              "name": "Engine_Plumbing_Detail_15",
+              "type": "tube",
+              "dims": [
+                0.02,
+                0.015,
+                0.5
+              ],
+              "pos": [
+                0,
+                0,
+                0
+              ],
+              "radial_array": {
+                "count": 1000,
+                "radius": 0.5,
+                "axis": "z"
+              },
+              "material": "steel_chrome"
+            }
+          ]
+        },
+        {
+          "name": "Raptor_Engine_16",
+          "type": "nozzle",
+          "dims": [
+            1.2,
+            2.5
+          ],
+          "pos": [
+            -3.484151729005796,
+            0.33269615156464005,
+            -1.5
+          ],
+          "sub_parts": [
+            {
+              "name": "Engine_Plumbing_Detail_16",
+              "type": "tube",
+              "dims": [
+                0.02,
+                0.015,
+                0.5
+              ],
+              "pos": [
+                0,
+                0,
+                0
+              ],
+              "radial_array": {
+                "count": 1000,
+                "radius": 0.5,
+                "axis": "z"
+              },
+              "material": "steel_chrome"
+            }
+          ]
+        },
+        {
+          "name": "Raptor_Engine_17",
+          "type": "nozzle",
+          "dims": [
+            1.2,
+            2.5
+          ],
+          "pos": [
+            -3.4841517290057964,
+            -0.33269615156463767,
+            -1.5
+          ],
+          "sub_parts": [
+            {
+              "name": "Engine_Plumbing_Detail_17",
+              "type": "tube",
+              "dims": [
+                0.02,
+                0.015,
+                0.5
+              ],
+              "pos": [
+                0,
+                0,
+                0
+              ],
+              "radial_array": {
+                "count": 1000,
+                "radius": 0.5,
+                "axis": "z"
+              },
+              "material": "steel_chrome"
+            }
+          ]
+        },
+        {
+          "name": "Raptor_Engine_18",
+          "type": "nozzle",
+          "dims": [
+            1.2,
+            2.5
+          ],
+          "pos": [
+            -3.358225407650741,
+            -0.9860639489450029,
+            -1.5
+          ],
+          "sub_parts": [
+            {
+              "name": "Engine_Plumbing_Detail_18",
+              "type": "tube",
+              "dims": [
+                0.02,
+                0.015,
+                0.5
+              ],
+              "pos": [
+                0,
+                0,
+                0
+              ],
+              "radial_array": {
+                "count": 1000,
+                "radius": 0.5,
+                "axis": "z"
+              },
+              "material": "steel_chrome"
+            }
+          ]
+        },
+        {
+          "name": "Raptor_Engine_19",
+          "type": "nozzle",
+          "dims": [
+            1.2,
+            2.5
+          ],
+          "pos": [
+            -3.110924070292233,
+            -1.6037928260459346,
+            -1.5
+          ],
+          "sub_parts": [
+            {
+              "name": "Engine_Plumbing_Detail_19",
+              "type": "tube",
+              "dims": [
+                0.02,
+                0.015,
+                0.5
+              ],
+              "pos": [
+                0,
+                0,
+                0
+              ],
+              "radial_array": {
+                "count": 1000,
+                "radius": 0.5,
+                "axis": "z"
+              },
+              "material": "steel_chrome"
+            }
+          ]
+        },
+        {
+          "name": "Raptor_Engine_20",
+          "type": "nozzle",
+          "dims": [
+            1.2,
+            2.5
+          ],
+          "pos": [
+            -2.751185831599757,
+            -2.1635564517721173,
+            -1.5
+          ],
+          "sub_parts": [
+            {
+              "name": "Engine_Plumbing_Detail_20",
+              "type": "tube",
+              "dims": [
+                0.02,
+                0.015,
+                0.5
+              ],
+              "pos": [
+                0,
+                0,
+                0
+              ],
+              "radial_array": {
+                "count": 1000,
+                "radius": 0.5,
+                "axis": "z"
+              },
+              "material": "steel_chrome"
+            }
+          ]
+        },
+        {
+          "name": "Raptor_Engine_21",
+          "type": "nozzle",
+          "dims": [
+            1.2,
+            2.5
+          ],
+          "pos": [
+            -2.2920125688084996,
+            -2.645123510239902,
+            -1.5
+          ],
+          "sub_parts": [
+            {
+              "name": "Engine_Plumbing_Detail_21",
+              "type": "tube",
+              "dims": [
+                0.02,
+                0.015,
+                0.5
+              ],
+              "pos": [
+                0,
+                0,
+                0
+              ],
+              "radial_array": {
+                "count": 1000,
+                "radius": 0.5,
+                "axis": "z"
+              },
+              "material": "steel_chrome"
+            }
+          ]
+        },
+        {
+          "name": "Raptor_Engine_22",
+          "type": "nozzle",
+          "dims": [
+            1.2,
+            2.5
+          ],
+          "pos": [
+            -1.7500000000000016,
+            -3.0310889132455348,
+            -1.5
+          ],
+          "sub_parts": [
+            {
+              "name": "Engine_Plumbing_Detail_22",
+              "type": "tube",
+              "dims": [
+                0.02,
+                0.015,
+                0.5
+              ],
+              "pos": [
+                0,
+                0,
+                0
+              ],
+              "radial_array": {
+                "count": 1000,
+                "radius": 0.5,
+                "axis": "z"
+              },
+              "material": "steel_chrome"
+            }
+          ]
+        },
+        {
+          "name": "Raptor_Engine_23",
+          "type": "nozzle",
+          "dims": [
+            1.2,
+            2.5
+          ],
+          "pos": [
+            -1.1447378716109766,
+            -3.3075028655013394,
+            -1.5
+          ],
+          "sub_parts": [
+            {
+              "name": "Engine_Plumbing_Detail_23",
+              "type": "tube",
+              "dims": [
+                0.02,
+                0.015,
+                0.5
+              ],
+              "pos": [
+                0,
+                0,
+                0
+              ],
+              "radial_array": {
+                "count": 1000,
+                "radius": 0.5,
+                "axis": "z"
+              },
+              "material": "steel_chrome"
+            }
+          ]
+        },
+        {
+          "name": "Raptor_Engine_24",
+          "type": "nozzle",
+          "dims": [
+            1.2,
+            2.5
+          ],
+          "pos": [
+            -0.49810193395649827,
+            -3.4643750465832643,
+            -1.5
+          ],
+          "sub_parts": [
+            {
+              "name": "Engine_Plumbing_Detail_24",
+              "type": "tube",
+              "dims": [
+                0.02,
+                0.015,
+                0.5
+              ],
+              "pos": [
+                0,
+                0,
+                0
+              ],
+              "radial_array": {
+                "count": 1000,
+                "radius": 0.5,
+                "axis": "z"
+              },
+              "material": "steel_chrome"
+            }
+          ]
+        },
+        {
+          "name": "Raptor_Engine_25",
+          "type": "nozzle",
+          "dims": [
+            1.2,
+            2.5
+          ],
+          "pos": [
+            0.16653670538309523,
+            -3.496035687140528,
+            -1.5
+          ],
+          "sub_parts": [
+            {
+              "name": "Engine_Plumbing_Detail_25",
+              "type": "tube",
+              "dims": [
+                0.02,
+                0.015,
+                0.5
+              ],
+              "pos": [
+                0,
+                0,
+                0
+              ],
+              "radial_array": {
+                "count": 1000,
+                "radius": 0.5,
+                "axis": "z"
+              },
+              "material": "steel_chrome"
+            }
+          ]
+        },
+        {
+          "name": "Raptor_Engine_26",
+          "type": "nozzle",
+          "dims": [
+            1.2,
+            2.5
+          ],
+          "pos": [
+            0.8251562742829932,
+            -3.4013404891323966,
+            -1.5
+          ],
+          "sub_parts": [
+            {
+              "name": "Engine_Plumbing_Detail_26",
+              "type": "tube",
+              "dims": [
+                0.02,
+                0.015,
+                0.5
+              ],
+              "pos": [
+                0,
+                0,
+                0
+              ],
+              "radial_array": {
+                "count": 1000,
+                "radius": 0.5,
+                "axis": "z"
+              },
+              "material": "steel_chrome"
+            }
+          ]
+        },
+        {
+          "name": "Raptor_Engine_27",
+          "type": "nozzle",
+          "dims": [
+            1.2,
+            2.5
+          ],
+          "pos": [
+            1.4539525455066011,
+            -3.1837119837408148,
+            -1.5
+          ],
+          "sub_parts": [
+            {
+              "name": "Engine_Plumbing_Detail_27",
+              "type": "tube",
+              "dims": [
+                0.02,
+                0.015,
+                0.5
+              ],
+              "pos": [
+                0,
+                0,
+                0
+              ],
+              "radial_array": {
+                "count": 1000,
+                "radius": 0.5,
+                "axis": "z"
+              },
+              "material": "steel_chrome"
+            }
+          ]
+        },
+        {
+          "name": "Raptor_Engine_28",
+          "type": "nozzle",
+          "dims": [
+            1.2,
+            2.5
+          ],
+          "pos": [
+            2.030199183499193,
+            -2.8510158321761754,
+            -1.5
+          ],
+          "sub_parts": [
+            {
+              "name": "Engine_Plumbing_Detail_28",
+              "type": "tube",
+              "dims": [
+                0.02,
+                0.015,
+                0.5
+              ],
+              "pos": [
+                0,
+                0,
+                0
+              ],
+              "radial_array": {
+                "count": 1000,
+                "radius": 0.5,
+                "axis": "z"
+              },
+              "material": "steel_chrome"
+            }
+          ]
+        },
+        {
+          "name": "Raptor_Engine_29",
+          "type": "nozzle",
+          "dims": [
+            1.2,
+            2.5
+          ],
+          "pos": [
+            2.533069133367743,
+            -2.4152765401873943,
+            -1.5
+          ],
+          "sub_parts": [
+            {
+              "name": "Engine_Plumbing_Detail_29",
+              "type": "tube",
+              "dims": [
+                0.02,
+                0.015,
+                0.5
+              ],
+              "pos": [
+                0,
+                0,
+                0
+              ],
+              "radial_array": {
+                "count": 1000,
+                "radius": 0.5,
+                "axis": "z"
+              },
+              "material": "steel_chrome"
+            }
+          ]
+        },
+        {
+          "name": "Raptor_Engine_30",
+          "type": "nozzle",
+          "dims": [
+            1.2,
+            2.5
+          ],
+          "pos": [
+            2.9443873649091326,
+            -1.8922428610945938,
+            -1.5
+          ],
+          "sub_parts": [
+            {
+              "name": "Engine_Plumbing_Detail_30",
+              "type": "tube",
+              "dims": [
+                0.02,
+                0.015,
+                0.5
+              ],
+              "pos": [
+                0,
+                0,
+                0
+              ],
+              "radial_array": {
+                "count": 1000,
+                "radius": 0.5,
+                "axis": "z"
+              },
+              "material": "steel_chrome"
+            }
+          ]
+        },
+        {
+          "name": "Raptor_Engine_31",
+          "type": "nozzle",
+          "dims": [
+            1.2,
+            2.5
+          ],
+          "pos": [
+            3.2492877655562533,
+            -1.3008185948111484,
+            -1.5
+          ],
+          "sub_parts": [
+            {
+              "name": "Engine_Plumbing_Detail_31",
+              "type": "tube",
+              "dims": [
+                0.02,
+                0.015,
+                0.5
+              ],
+              "pos": [
+                0,
+                0,
+                0
+              ],
+              "radial_array": {
+                "count": 1000,
+                "radius": 0.5,
+                "axis": "z"
+              },
+              "material": "steel_chrome"
+            }
+          ]
+        },
+        {
+          "name": "Raptor_Engine_32",
+          "type": "nozzle",
+          "dims": [
+            1.2,
+            2.5
+          ],
+          "pos": [
+            3.4367504404194733,
+            -0.6623793552614372,
+            -1.5
+          ],
+          "sub_parts": [
+            {
+              "name": "Engine_Plumbing_Detail_32",
+              "type": "tube",
+              "dims": [
+                0.02,
+                0.015,
+                0.5
+              ],
+              "pos": [
+                0,
+                0,
+                0
+              ],
+              "radial_array": {
+                "count": 1000,
+                "radius": 0.5,
+                "axis": "z"
+              },
+              "material": "steel_chrome"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+/* ============================================================================
+   JARVIS DESIGN SYSTEM - CSS Variables
+   ============================================================================ */
+
+:root {
+    /* Brand Colors */
+    --jarvis-cyan: #00f0ff;
+    --jarvis-blue: #0066ff;
+    --jarvis-purple: #7c3aed;
+    --jarvis-green: #10b981;
+    --jarvis-amber: #f59e0b;
+    --jarvis-red: #ef4444;
+
+    /* Accent */
+    --accent-primary: var(--jarvis-cyan);
+    --accent-secondary: var(--jarvis-blue);
+    --accent-glow: rgba(0, 240, 255, 0.15);
+    --accent-glow-strong: rgba(0, 240, 255, 0.3);
+}
+
+/* Dark Theme (default) */
+[data-theme="dark"] {
+    --bg-app: #0a0a12;
+    --bg-surface: #12121e;
+    --bg-surface-2: #1a1a2e;
+    --bg-surface-3: #22223a;
+    --bg-hover: #2a2a44;
+    --bg-active: #33335a;
+    --bg-input: #16162a;
+
+    --border-color: #2a2a44;
+    --border-subtle: #1e1e36;
+    --border-active: var(--jarvis-cyan);
+
+    --text-primary: #e8e8f0;
+    --text-secondary: #9898b8;
+    --text-muted: #6868888;
+    --text-accent: var(--jarvis-cyan);
+
+    --sidebar-bg: #08080f;
+    --sidebar-border: #1a1a2e;
+    --sidebar-icon: #6868888;
+    --sidebar-icon-active: var(--jarvis-cyan);
+    --sidebar-indicator: var(--jarvis-cyan);
+
+    --titlebar-bg: #0a0a12;
+    --statusbar-bg: #08080f;
+
+    --terminal-bg: #0c0c14;
+    --editor-bg: #12121e;
+
+    --scrollbar-track: transparent;
+    --scrollbar-thumb: #2a2a44;
+    --scrollbar-thumb-hover: #3a3a5a;
+
+    --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.5);
+    --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.6);
+    --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.7);
+    --shadow-glow: 0 0 20px rgba(0, 240, 255, 0.1);
+}
+
+/* Light Theme */
+[data-theme="light"] {
+    --bg-app: #f5f5f8;
+    --bg-surface: #ffffff;
+    --bg-surface-2: #f0f0f5;
+    --bg-surface-3: #e8e8ee;
+    --bg-hover: #e0e0ea;
+    --bg-active: #d0d0de;
+    --bg-input: #ffffff;
+
+    --border-color: #d0d0de;
+    --border-subtle: #e0e0ea;
+    --border-active: var(--jarvis-blue);
+
+    --text-primary: #1a1a2e;
+    --text-secondary: #5a5a7a;
+    --text-muted: #8a8aa8;
+    --text-accent: var(--jarvis-blue);
+
+    --sidebar-bg: #eaeaf0;
+    --sidebar-border: #d0d0de;
+    --sidebar-icon: #8a8aa8;
+    --sidebar-icon-active: var(--jarvis-blue);
+    --sidebar-indicator: var(--jarvis-blue);
+
+    --titlebar-bg: #f5f5f8;
+    --statusbar-bg: #eaeaf0;
+
+    --terminal-bg: #1a1a2e;
+    --editor-bg: #ffffff;
+
+    --scrollbar-track: transparent;
+    --scrollbar-thumb: #c0c0d0;
+    --scrollbar-thumb-hover: #a0a0b8;
+
+    --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08);
+    --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.1);
+    --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.12);
+    --shadow-glow: none;
+}
