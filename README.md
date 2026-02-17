@@ -65,19 +65,50 @@ jarvis/
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Quick Start (Installation)
 
-1.  **Dependencies**:
-    - [Ollama](https://ollama.com/) (Download `qwen2.5-coder:3b`)
-    - Python 3.10+
-    - Node.js 18+
-2.  **Environment Setup**:
-    - Create a `.env` file in the `backend/` directory with necessary API keys (optional for local-only).
-3.  **Run the System**:
-    ```bash
-    npm run start-all
-    ```
-    This command starts both the Electron frontend and the Python backend concurrently.
+To get Atlas running on your local machine, follow these steps:
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/yousef469/jarvis-workflow-system.git jarvis
+cd jarvis
+```
+
+### 2. Set Up Environment
+It is recommended to use a virtual environment:
+```bash
+python3 -m venv venv
+source venv/bin/activate  # macOS/Linux
+# .\venv\Scripts\activate  # Windows
+```
+
+### 3. Install Dependencies
+```bash
+# Install backend requirements
+pip install -r backend/requirements.txt
+
+# Install frontend dependencies
+npm install
+```
+
+### 4. Download AI Models & Assets
+Atlas requires several large models (Vosk, OmniParser weights, etc.) to be present in the `backend/` directory. We've provided a script to automate this:
+```bash
+python3 download_assets.py
+```
+
+### 5. Install Ollama
+Ensure [Ollama](https://ollama.com/) is installed and running, then pull the required model:
+```bash
+ollama pull qwen2.5-coder:3b
+```
+
+### 6. Launch the System
+```bash
+npm run start-all
+```
+This command starts both the Electron frontend and the Python backend concurrently.
 
 ---
 
